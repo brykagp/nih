@@ -215,7 +215,7 @@ const PatientTable: React.FC = () => {
                     <strong>Active:</strong> {patient.active ? "Yes" : "No"}
                   </p>
                   <p>
-                    <strong>Address:</strong> {patient.address.line?? "Not specified"}, {patient.address.city?? "Not specified"}, {patient.address.state?? "Not specified"}, {patient.address.postalCode?? "Not specified"}, {patient.address.country?? "Not specified"}
+                    <strong>Address:</strong> {patient.address.line?? "Not specified"}, {"Los Angeles"}
                   </p>
                   <p>
                     <strong>Gender:</strong> {patient.gender ?? "Not specified"}

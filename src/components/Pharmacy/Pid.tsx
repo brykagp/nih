@@ -113,9 +113,7 @@ const PatientSearch: React.FC = () => {
               <tr>
                 <td className="border px-4 py-2 font-semibold">Address</td>
                 <td className="border px-4 py-2">
-                  {filteredPatient.address.line[0]}, {filteredPatient.address.city},{" "}
-                  {filteredPatient.address.state} - {filteredPatient.address.postalCode},{" "}
-                  {filteredPatient.address.country}
+                  {filteredPatient.address.line[0]}, {"Los Angeles"}
                 </td>
               </tr>
               <tr>
