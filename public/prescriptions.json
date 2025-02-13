@@ -1,0 +1,2402 @@
+[
+    {
+      "patientName": "Michael Lewis",
+      "medication": "Amoxicillin",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. Robert Wilson",
+      "status": "Active",
+      "datePrescribed": "2024-10-14"
+    },
+    {
+      "patientName": "Mary Taylor",
+      "medication": "Sertraline",
+      "dosage": "40mg",
+      "prescribingDoctor": "Dr. David Anderson",
+      "status": "Completed",
+      "datePrescribed": "2024-03-05"
+    },
+    {
+      "patientName": "Michael Johnson",
+      "medication": "Omeprazole",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Discontinued",
+      "datePrescribed": "2024-07-27"
+    },
+    {
+      "patientName": "Lisa Gonzalez",
+      "medication": "Metformin",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. John Smith",
+      "status": "Active",
+      "datePrescribed": "2025-02-11"
+    },
+    {
+      "patientName": "Charles Wilson",
+      "medication": "Atorvastatin",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. David Anderson",
+      "status": "Discontinued",
+      "datePrescribed": "2024-12-05"
+    },
+    {
+      "patientName": "Robert Davis",
+      "medication": "Amoxicillin",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Completed",
+      "datePrescribed": "2024-03-16"
+    },
+    {
+      "patientName": "Thomas Anderson",
+      "medication": "Aspirin",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Emily Johnson",
+      "status": "Discontinued",
+      "datePrescribed": "2024-07-19"
+    },
+    {
+      "patientName": "Matthew Jackson",
+      "medication": "Levothyroxine",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Active",
+      "datePrescribed": "2024-10-21"
+    },
+    {
+      "patientName": "Elizabeth Lewis",
+      "medication": "Omeprazole",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Discontinued",
+      "datePrescribed": "2025-02-01"
+    },
+    {
+      "patientName": "Daniel Williams",
+      "medication": "Lisinopril",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. David Anderson",
+      "status": "Discontinued",
+      "datePrescribed": "2024-04-06"
+    },
+    {
+      "patientName": "Kevin Perez",
+      "medication": "Sertraline",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. Sarah Williams",
+      "status": "Discontinued",
+      "datePrescribed": "2025-01-20"
+    },
+    {
+      "patientName": "Richard Martin",
+      "medication": "Aspirin",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Discontinued",
+      "datePrescribed": "2024-05-20"
+    },
+    {
+      "patientName": "Kimberly Clark",
+      "medication": "Amoxicillin",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Active",
+      "datePrescribed": "2024-03-07"
+    },
+    {
+      "patientName": "Linda Wilson",
+      "medication": "Aspirin",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. David Anderson",
+      "status": "Active",
+      "datePrescribed": "2024-10-01"
+    },
+    {
+      "patientName": "Richard Taylor",
+      "medication": "Atorvastatin",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Completed",
+      "datePrescribed": "2024-06-10"
+    },
+    {
+      "patientName": "Daniel Taylor",
+      "medication": "Lisinopril",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Discontinued",
+      "datePrescribed": "2024-09-27"
+    },
+    {
+      "patientName": "Susan Jackson",
+      "medication": "Atorvastatin",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Discontinued",
+      "datePrescribed": "2024-04-27"
+    },
+    {
+      "patientName": "Emily Anderson",
+      "medication": "Atorvastatin",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. Sarah Williams",
+      "status": "Completed",
+      "datePrescribed": "2024-06-12"
+    },
+    {
+      "patientName": "Joshua Miller",
+      "medication": "Lisinopril",
+      "dosage": "500mg",
+      "prescribingDoctor": "Dr. David Anderson",
+      "status": "Active",
+      "datePrescribed": "2024-03-15"
+    },
+    {
+      "patientName": "Karen Williams",
+      "medication": "Atorvastatin",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. Robert Wilson",
+      "status": "Active",
+      "datePrescribed": "2024-10-06"
+    },
+    {
+      "patientName": "Melissa Lopez",
+      "medication": "Sertraline",
+      "dosage": "850mg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Active",
+      "datePrescribed": "2024-03-27"
+    },
+    {
+      "patientName": "Michael Perez",
+      "medication": "Sertraline",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Discontinued",
+      "datePrescribed": "2024-11-06"
+    },
+    {
+      "patientName": "Sarah Lopez",
+      "medication": "Ibuprofen",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Completed",
+      "datePrescribed": "2024-02-16"
+    },
+    {
+      "patientName": "William Miller",
+      "medication": "Sertraline",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. Robert Wilson",
+      "status": "Completed",
+      "datePrescribed": "2024-06-10"
+    },
+    {
+      "patientName": "Mary Martin",
+      "medication": "Aspirin",
+      "dosage": "850mg",
+      "prescribingDoctor": "Dr. Lisa Miller",
+      "status": "Active",
+      "datePrescribed": "2025-01-11"
+    },
+    {
+      "patientName": "Jessica Williams",
+      "medication": "Ibuprofen",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Discontinued",
+      "datePrescribed": "2024-05-05"
+    },
+    {
+      "patientName": "Jennifer Jackson",
+      "medication": "Sertraline",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. David Anderson",
+      "status": "Active",
+      "datePrescribed": "2024-03-29"
+    },
+    {
+      "patientName": "James Moore",
+      "medication": "Amoxicillin",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Sarah Williams",
+      "status": "Active",
+      "datePrescribed": "2024-06-30"
+    },
+    {
+      "patientName": "Elizabeth Jones",
+      "medication": "Aspirin",
+      "dosage": "20mg",
+      "prescribingDoctor": "Dr. Sarah Williams",
+      "status": "Completed",
+      "datePrescribed": "2024-03-17"
+    },
+    {
+      "patientName": "Michael Moore",
+      "medication": "Metformin",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. Robert Wilson",
+      "status": "Completed",
+      "datePrescribed": "2024-09-27"
+    },
+    {
+      "patientName": "Ashley Williams",
+      "medication": "Sertraline",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Completed",
+      "datePrescribed": "2024-08-13"
+    },
+    {
+      "patientName": "Barbara Thomas",
+      "medication": "Omeprazole",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Completed",
+      "datePrescribed": "2024-12-10"
+    },
+    {
+      "patientName": "John Taylor",
+      "medication": "Omeprazole",
+      "dosage": "40mg",
+      "prescribingDoctor": "Dr. Sarah Williams",
+      "status": "Discontinued",
+      "datePrescribed": "2024-07-12"
+    },
+    {
+      "patientName": "Emily Anderson",
+      "medication": "Losartan",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. Lisa Miller",
+      "status": "Completed",
+      "datePrescribed": "2024-05-21"
+    },
+    {
+      "patientName": "Richard Harris",
+      "medication": "Atorvastatin",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. Emily Johnson",
+      "status": "Active",
+      "datePrescribed": "2024-05-15"
+    },
+    {
+      "patientName": "Kimberly Robinson",
+      "medication": "Atorvastatin",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Robert Wilson",
+      "status": "Active",
+      "datePrescribed": "2024-08-01"
+    },
+    {
+      "patientName": "Kevin Brown",
+      "medication": "Levothyroxine",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. Lisa Miller",
+      "status": "Active",
+      "datePrescribed": "2025-01-26"
+    },
+    {
+      "patientName": "Patricia Perez",
+      "medication": "Levothyroxine",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. John Smith",
+      "status": "Discontinued",
+      "datePrescribed": "2024-06-28"
+    },
+    {
+      "patientName": "Michael Smith",
+      "medication": "Ibuprofen",
+      "dosage": "20mg",
+      "prescribingDoctor": "Dr. John Smith",
+      "status": "Discontinued",
+      "datePrescribed": "2024-12-11"
+    },
+    {
+      "patientName": "Kimberly Johnson",
+      "medication": "Ibuprofen",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Completed",
+      "datePrescribed": "2024-04-12"
+    },
+    {
+      "patientName": "Patricia Robinson",
+      "medication": "Omeprazole",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Discontinued",
+      "datePrescribed": "2024-12-26"
+    },
+    {
+      "patientName": "Richard Brown",
+      "medication": "Atorvastatin",
+      "dosage": "850mg",
+      "prescribingDoctor": "Dr. Sarah Williams",
+      "status": "Discontinued",
+      "datePrescribed": "2024-04-13"
+    },
+    {
+      "patientName": "Joseph Jackson",
+      "medication": "Atorvastatin",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Sarah Williams",
+      "status": "Discontinued",
+      "datePrescribed": "2024-12-23"
+    },
+    {
+      "patientName": "Matthew Sanchez",
+      "medication": "Sertraline",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Completed",
+      "datePrescribed": "2024-07-12"
+    },
+    {
+      "patientName": "Robert Thomas",
+      "medication": "Losartan",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. Robert Wilson",
+      "status": "Discontinued",
+      "datePrescribed": "2024-09-27"
+    },
+    {
+      "patientName": "Barbara Rodriguez",
+      "medication": "Atorvastatin",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Completed",
+      "datePrescribed": "2024-02-23"
+    },
+    {
+      "patientName": "Matthew Garcia",
+      "medication": "Losartan",
+      "dosage": "500mg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Discontinued",
+      "datePrescribed": "2024-07-14"
+    },
+    {
+      "patientName": "James Ramirez",
+      "medication": "Aspirin",
+      "dosage": "20mg",
+      "prescribingDoctor": "Dr. Emily Johnson",
+      "status": "Completed",
+      "datePrescribed": "2024-05-17"
+    },
+    {
+      "patientName": "Patricia Thomas",
+      "medication": "Aspirin",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Lisa Miller",
+      "status": "Completed",
+      "datePrescribed": "2024-11-04"
+    },
+    {
+      "patientName": "Joshua Thompson",
+      "medication": "Omeprazole",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. Lisa Miller",
+      "status": "Discontinued",
+      "datePrescribed": "2024-03-06"
+    },
+    {
+      "patientName": "Patricia Anderson",
+      "medication": "Metformin",
+      "dosage": "500mg",
+      "prescribingDoctor": "Dr. Sarah Williams",
+      "status": "Active",
+      "datePrescribed": "2024-11-02"
+    },
+    {
+      "patientName": "Richard Lewis",
+      "medication": "Atorvastatin",
+      "dosage": "40mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Active",
+      "datePrescribed": "2024-04-07"
+    },
+    {
+      "patientName": "Sarah Sanchez",
+      "medication": "Omeprazole",
+      "dosage": "40mg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Discontinued",
+      "datePrescribed": "2024-03-20"
+    },
+    {
+      "patientName": "Sarah Lewis",
+      "medication": "Amoxicillin",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. John Smith",
+      "status": "Active",
+      "datePrescribed": "2025-01-03"
+    },
+    {
+      "patientName": "James Moore",
+      "medication": "Lisinopril",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Active",
+      "datePrescribed": "2024-05-30"
+    },
+    {
+      "patientName": "William Miller",
+      "medication": "Atorvastatin",
+      "dosage": "40mg",
+      "prescribingDoctor": "Dr. Robert Wilson",
+      "status": "Completed",
+      "datePrescribed": "2024-05-18"
+    },
+    {
+      "patientName": "Linda Sanchez",
+      "medication": "Metformin",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Discontinued",
+      "datePrescribed": "2024-12-05"
+    },
+    {
+      "patientName": "John Gonzalez",
+      "medication": "Ibuprofen",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. Sarah Williams",
+      "status": "Completed",
+      "datePrescribed": "2024-07-27"
+    },
+    {
+      "patientName": "Patricia Lee",
+      "medication": "Metformin",
+      "dosage": "40mg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Completed",
+      "datePrescribed": "2024-06-05"
+    },
+    {
+      "patientName": "Karen Perez",
+      "medication": "Atorvastatin",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Emily Johnson",
+      "status": "Active",
+      "datePrescribed": "2024-03-23"
+    },
+    {
+      "patientName": "Lisa Smith",
+      "medication": "Losartan",
+      "dosage": "500mg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Completed",
+      "datePrescribed": "2024-07-17"
+    },
+    {
+      "patientName": "Kevin Perez",
+      "medication": "Ibuprofen",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. David Anderson",
+      "status": "Completed",
+      "datePrescribed": "2024-09-02"
+    },
+    {
+      "patientName": "Elizabeth Garcia",
+      "medication": "Lisinopril",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Emily Johnson",
+      "status": "Completed",
+      "datePrescribed": "2025-01-06"
+    },
+    {
+      "patientName": "William Thompson",
+      "medication": "Ibuprofen",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Active",
+      "datePrescribed": "2024-09-29"
+    },
+    {
+      "patientName": "Jennifer Robinson",
+      "medication": "Levothyroxine",
+      "dosage": "500mg",
+      "prescribingDoctor": "Dr. John Smith",
+      "status": "Discontinued",
+      "datePrescribed": "2024-09-02"
+    },
+    {
+      "patientName": "Charles Williams",
+      "medication": "Omeprazole",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Emily Johnson",
+      "status": "Completed",
+      "datePrescribed": "2024-03-02"
+    },
+    {
+      "patientName": "Patricia Sanchez",
+      "medication": "Aspirin",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Completed",
+      "datePrescribed": "2024-10-17"
+    },
+    {
+      "patientName": "Matthew Robinson",
+      "medication": "Amoxicillin",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. Emily Johnson",
+      "status": "Completed",
+      "datePrescribed": "2025-02-10"
+    },
+    {
+      "patientName": "Kimberly Martinez",
+      "medication": "Levothyroxine",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Completed",
+      "datePrescribed": "2024-07-17"
+    },
+    {
+      "patientName": "Mary White",
+      "medication": "Sertraline",
+      "dosage": "20mg",
+      "prescribingDoctor": "Dr. Emily Johnson",
+      "status": "Discontinued",
+      "datePrescribed": "2024-12-22"
+    },
+    {
+      "patientName": "James Jackson",
+      "medication": "Sertraline",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Lisa Miller",
+      "status": "Discontinued",
+      "datePrescribed": "2024-12-03"
+    },
+    {
+      "patientName": "Nancy Rodriguez",
+      "medication": "Lisinopril",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Active",
+      "datePrescribed": "2024-08-25"
+    },
+    {
+      "patientName": "Jessica Gonzalez",
+      "medication": "Amoxicillin",
+      "dosage": "500mg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Active",
+      "datePrescribed": "2025-01-01"
+    },
+    {
+      "patientName": "Lisa Anderson",
+      "medication": "Metformin",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. Emily Johnson",
+      "status": "Active",
+      "datePrescribed": "2025-01-03"
+    },
+    {
+      "patientName": "Richard Williams",
+      "medication": "Levothyroxine",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Discontinued",
+      "datePrescribed": "2024-11-19"
+    },
+    {
+      "patientName": "Lisa Wilson",
+      "medication": "Aspirin",
+      "dosage": "20mg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Active",
+      "datePrescribed": "2024-10-22"
+    },
+    {
+      "patientName": "John Lewis",
+      "medication": "Amoxicillin",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Active",
+      "datePrescribed": "2024-08-25"
+    },
+    {
+      "patientName": "Jennifer Brown",
+      "medication": "Omeprazole",
+      "dosage": "850mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Active",
+      "datePrescribed": "2024-07-26"
+    },
+    {
+      "patientName": "David Smith",
+      "medication": "Sertraline",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Completed",
+      "datePrescribed": "2024-02-29"
+    },
+    {
+      "patientName": "Elizabeth Garcia",
+      "medication": "Amoxicillin",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. David Anderson",
+      "status": "Active",
+      "datePrescribed": "2024-05-30"
+    },
+    {
+      "patientName": "James Miller",
+      "medication": "Lisinopril",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. Emily Johnson",
+      "status": "Active",
+      "datePrescribed": "2024-12-26"
+    },
+    {
+      "patientName": "Elizabeth Williams",
+      "medication": "Levothyroxine",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. David Anderson",
+      "status": "Active",
+      "datePrescribed": "2024-02-27"
+    },
+    {
+      "patientName": "Linda Taylor",
+      "medication": "Aspirin",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Discontinued",
+      "datePrescribed": "2024-06-09"
+    },
+    {
+      "patientName": "Kimberly Rodriguez",
+      "medication": "Atorvastatin",
+      "dosage": "500mg",
+      "prescribingDoctor": "Dr. Emily Johnson",
+      "status": "Discontinued",
+      "datePrescribed": "2024-07-25"
+    },
+    {
+      "patientName": "Mary Jones",
+      "medication": "Metformin",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. John Smith",
+      "status": "Discontinued",
+      "datePrescribed": "2024-04-02"
+    },
+    {
+      "patientName": "Mary Sanchez",
+      "medication": "Ibuprofen",
+      "dosage": "500mg",
+      "prescribingDoctor": "Dr. Emily Johnson",
+      "status": "Completed",
+      "datePrescribed": "2024-07-13"
+    },
+    {
+      "patientName": "Ashley Smith",
+      "medication": "Metformin",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Emily Johnson",
+      "status": "Completed",
+      "datePrescribed": "2024-10-01"
+    },
+    {
+      "patientName": "Jennifer Williams",
+      "medication": "Aspirin",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Active",
+      "datePrescribed": "2024-10-24"
+    },
+    {
+      "patientName": "Michael Smith",
+      "medication": "Levothyroxine",
+      "dosage": "850mg",
+      "prescribingDoctor": "Dr. Lisa Miller",
+      "status": "Discontinued",
+      "datePrescribed": "2024-10-12"
+    },
+    {
+      "patientName": "Michael Smith",
+      "medication": "Losartan",
+      "dosage": "500mg",
+      "prescribingDoctor": "Dr. Emily Johnson",
+      "status": "Discontinued",
+      "datePrescribed": "2024-08-05"
+    },
+    {
+      "patientName": "Nancy Johnson",
+      "medication": "Amoxicillin",
+      "dosage": "500mg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Active",
+      "datePrescribed": "2024-07-25"
+    },
+    {
+      "patientName": "Joshua Thompson",
+      "medication": "Aspirin",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Completed",
+      "datePrescribed": "2024-03-11"
+    },
+    {
+      "patientName": "Richard Ramirez",
+      "medication": "Aspirin",
+      "dosage": "20mg",
+      "prescribingDoctor": "Dr. Emily Johnson",
+      "status": "Completed",
+      "datePrescribed": "2024-03-15"
+    },
+    {
+      "patientName": "Barbara Rodriguez",
+      "medication": "Omeprazole",
+      "dosage": "500mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Completed",
+      "datePrescribed": "2024-12-03"
+    },
+    {
+      "patientName": "Karen Brown",
+      "medication": "Metformin",
+      "dosage": "500mg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Completed",
+      "datePrescribed": "2025-01-15"
+    },
+    {
+      "patientName": "Lisa Lee",
+      "medication": "Losartan",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. David Anderson",
+      "status": "Discontinued",
+      "datePrescribed": "2024-03-18"
+    },
+    {
+      "patientName": "Lisa Davis",
+      "medication": "Amoxicillin",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. John Smith",
+      "status": "Discontinued",
+      "datePrescribed": "2024-11-25"
+    },
+    {
+      "patientName": "Elizabeth Gonzalez",
+      "medication": "Ibuprofen",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Discontinued",
+      "datePrescribed": "2024-03-11"
+    },
+    {
+      "patientName": "Nancy Lopez",
+      "medication": "Losartan",
+      "dosage": "40mg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Completed",
+      "datePrescribed": "2024-07-11"
+    },
+    {
+      "patientName": "James Brown",
+      "medication": "Ibuprofen",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Discontinued",
+      "datePrescribed": "2024-06-09"
+    },
+    {
+      "patientName": "Matthew Brown",
+      "medication": "Sertraline",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Lisa Miller",
+      "status": "Active",
+      "datePrescribed": "2024-06-16"
+    },
+    {
+      "patientName": "Linda Jones",
+      "medication": "Omeprazole",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Discontinued",
+      "datePrescribed": "2024-07-09"
+    },
+    {
+      "patientName": "James Lewis",
+      "medication": "Omeprazole",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. Emily Johnson",
+      "status": "Discontinued",
+      "datePrescribed": "2024-03-03"
+    },
+    {
+      "patientName": "Jessica Johnson",
+      "medication": "Aspirin",
+      "dosage": "500mg",
+      "prescribingDoctor": "Dr. Emily Johnson",
+      "status": "Discontinued",
+      "datePrescribed": "2024-12-26"
+    },
+    {
+      "patientName": "Nancy Lee",
+      "medication": "Sertraline",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. Sarah Williams",
+      "status": "Active",
+      "datePrescribed": "2024-10-18"
+    },
+    {
+      "patientName": "John Moore",
+      "medication": "Levothyroxine",
+      "dosage": "40mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Discontinued",
+      "datePrescribed": "2025-01-26"
+    },
+    {
+      "patientName": "Ashley Thompson",
+      "medication": "Lisinopril",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Completed",
+      "datePrescribed": "2024-11-30"
+    },
+    {
+      "patientName": "Susan Anderson",
+      "medication": "Aspirin",
+      "dosage": "850mg",
+      "prescribingDoctor": "Dr. David Anderson",
+      "status": "Completed",
+      "datePrescribed": "2025-01-24"
+    },
+    {
+      "patientName": "Nancy Perez",
+      "medication": "Amoxicillin",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Discontinued",
+      "datePrescribed": "2024-11-30"
+    },
+    {
+      "patientName": "Richard Smith",
+      "medication": "Ibuprofen",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. David Anderson",
+      "status": "Discontinued",
+      "datePrescribed": "2024-07-22"
+    },
+    {
+      "patientName": "John Rodriguez",
+      "medication": "Sertraline",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. David Anderson",
+      "status": "Active",
+      "datePrescribed": "2024-04-18"
+    },
+    {
+      "patientName": "Matthew Taylor",
+      "medication": "Metformin",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Active",
+      "datePrescribed": "2024-06-14"
+    },
+    {
+      "patientName": "Barbara Sanchez",
+      "medication": "Metformin",
+      "dosage": "20mg",
+      "prescribingDoctor": "Dr. Robert Wilson",
+      "status": "Discontinued",
+      "datePrescribed": "2024-08-02"
+    },
+    {
+      "patientName": "Nancy Miller",
+      "medication": "Aspirin",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Emily Johnson",
+      "status": "Active",
+      "datePrescribed": "2024-06-25"
+    },
+    {
+      "patientName": "Linda Perez",
+      "medication": "Levothyroxine",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Lisa Miller",
+      "status": "Discontinued",
+      "datePrescribed": "2024-07-25"
+    },
+    {
+      "patientName": "James Gonzalez",
+      "medication": "Levothyroxine",
+      "dosage": "500mg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Completed",
+      "datePrescribed": "2024-07-06"
+    },
+    {
+      "patientName": "Linda Martinez",
+      "medication": "Ibuprofen",
+      "dosage": "20mg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Discontinued",
+      "datePrescribed": "2024-02-13"
+    },
+    {
+      "patientName": "Ashley Davis",
+      "medication": "Atorvastatin",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Discontinued",
+      "datePrescribed": "2024-04-04"
+    },
+    {
+      "patientName": "Jennifer Brown",
+      "medication": "Levothyroxine",
+      "dosage": "850mg",
+      "prescribingDoctor": "Dr. David Anderson",
+      "status": "Completed",
+      "datePrescribed": "2024-09-16"
+    },
+    {
+      "patientName": "Charles Perez",
+      "medication": "Losartan",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Discontinued",
+      "datePrescribed": "2024-08-21"
+    },
+    {
+      "patientName": "Lisa Robinson",
+      "medication": "Sertraline",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Active",
+      "datePrescribed": "2024-03-29"
+    },
+    {
+      "patientName": "Ashley Sanchez",
+      "medication": "Losartan",
+      "dosage": "850mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Completed",
+      "datePrescribed": "2024-10-01"
+    },
+    {
+      "patientName": "Joshua Thomas",
+      "medication": "Omeprazole",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Discontinued",
+      "datePrescribed": "2024-09-02"
+    },
+    {
+      "patientName": "Elizabeth Smith",
+      "medication": "Ibuprofen",
+      "dosage": "850mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Active",
+      "datePrescribed": "2025-01-08"
+    },
+    {
+      "patientName": "William Ramirez",
+      "medication": "Omeprazole",
+      "dosage": "850mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Completed",
+      "datePrescribed": "2025-01-30"
+    },
+    {
+      "patientName": "Mary Robinson",
+      "medication": "Metformin",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. Sarah Williams",
+      "status": "Discontinued",
+      "datePrescribed": "2025-01-09"
+    },
+    {
+      "patientName": "William Jackson",
+      "medication": "Amoxicillin",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. David Anderson",
+      "status": "Discontinued",
+      "datePrescribed": "2025-01-07"
+    },
+    {
+      "patientName": "David Robinson",
+      "medication": "Amoxicillin",
+      "dosage": "20mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Completed",
+      "datePrescribed": "2024-03-24"
+    },
+    {
+      "patientName": "Richard Davis",
+      "medication": "Atorvastatin",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Completed",
+      "datePrescribed": "2024-04-11"
+    },
+    {
+      "patientName": "William Hernandez",
+      "medication": "Omeprazole",
+      "dosage": "40mg",
+      "prescribingDoctor": "Dr. John Smith",
+      "status": "Completed",
+      "datePrescribed": "2024-03-06"
+    },
+    {
+      "patientName": "David Lee",
+      "medication": "Omeprazole",
+      "dosage": "40mg",
+      "prescribingDoctor": "Dr. David Anderson",
+      "status": "Active",
+      "datePrescribed": "2024-11-19"
+    },
+    {
+      "patientName": "Joseph Lee",
+      "medication": "Lisinopril",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Discontinued",
+      "datePrescribed": "2025-01-25"
+    },
+    {
+      "patientName": "Jessica Jackson",
+      "medication": "Atorvastatin",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Discontinued",
+      "datePrescribed": "2024-07-02"
+    },
+    {
+      "patientName": "Kevin Davis",
+      "medication": "Metformin",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Completed",
+      "datePrescribed": "2025-01-11"
+    },
+    {
+      "patientName": "Joseph Jones",
+      "medication": "Losartan",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. Robert Wilson",
+      "status": "Active",
+      "datePrescribed": "2024-06-21"
+    },
+    {
+      "patientName": "James Moore",
+      "medication": "Sertraline",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Discontinued",
+      "datePrescribed": "2024-05-07"
+    },
+    {
+      "patientName": "Joshua Martin",
+      "medication": "Losartan",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Lisa Miller",
+      "status": "Discontinued",
+      "datePrescribed": "2024-10-24"
+    },
+    {
+      "patientName": "James Moore",
+      "medication": "Losartan",
+      "dosage": "20mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Completed",
+      "datePrescribed": "2024-07-03"
+    },
+    {
+      "patientName": "William Clark",
+      "medication": "Losartan",
+      "dosage": "40mg",
+      "prescribingDoctor": "Dr. Emily Johnson",
+      "status": "Completed",
+      "datePrescribed": "2024-10-14"
+    },
+    {
+      "patientName": "Joshua Davis",
+      "medication": "Amoxicillin",
+      "dosage": "850mg",
+      "prescribingDoctor": "Dr. Lisa Miller",
+      "status": "Active",
+      "datePrescribed": "2024-08-01"
+    },
+    {
+      "patientName": "Richard Gonzalez",
+      "medication": "Amoxicillin",
+      "dosage": "500mg",
+      "prescribingDoctor": "Dr. Robert Wilson",
+      "status": "Active",
+      "datePrescribed": "2024-11-21"
+    },
+    {
+      "patientName": "Melissa Lopez",
+      "medication": "Ibuprofen",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Completed",
+      "datePrescribed": "2024-05-20"
+    },
+    {
+      "patientName": "Barbara Garcia",
+      "medication": "Metformin",
+      "dosage": "850mg",
+      "prescribingDoctor": "Dr. Robert Wilson",
+      "status": "Completed",
+      "datePrescribed": "2025-01-31"
+    },
+    {
+      "patientName": "Sarah Sanchez",
+      "medication": "Sertraline",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Active",
+      "datePrescribed": "2024-09-11"
+    },
+    {
+      "patientName": "Lisa Davis",
+      "medication": "Omeprazole",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. Lisa Miller",
+      "status": "Discontinued",
+      "datePrescribed": "2024-06-01"
+    },
+    {
+      "patientName": "Joshua Ramirez",
+      "medication": "Omeprazole",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Completed",
+      "datePrescribed": "2024-10-21"
+    },
+    {
+      "patientName": "Melissa Lee",
+      "medication": "Losartan",
+      "dosage": "20mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Active",
+      "datePrescribed": "2024-09-04"
+    },
+    {
+      "patientName": "Matthew Anderson",
+      "medication": "Aspirin",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Discontinued",
+      "datePrescribed": "2024-04-26"
+    },
+    {
+      "patientName": "Richard Miller",
+      "medication": "Metformin",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. Robert Wilson",
+      "status": "Active",
+      "datePrescribed": "2025-01-18"
+    },
+    {
+      "patientName": "Nancy Thompson",
+      "medication": "Sertraline",
+      "dosage": "500mg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Completed",
+      "datePrescribed": "2025-02-06"
+    },
+    {
+      "patientName": "William Hernandez",
+      "medication": "Sertraline",
+      "dosage": "20mg",
+      "prescribingDoctor": "Dr. Robert Wilson",
+      "status": "Discontinued",
+      "datePrescribed": "2025-02-10"
+    },
+    {
+      "patientName": "Lisa Anderson",
+      "medication": "Atorvastatin",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Discontinued",
+      "datePrescribed": "2024-07-04"
+    },
+    {
+      "patientName": "Patricia Ramirez",
+      "medication": "Sertraline",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. Sarah Williams",
+      "status": "Completed",
+      "datePrescribed": "2024-04-04"
+    },
+    {
+      "patientName": "Daniel Ramirez",
+      "medication": "Sertraline",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. Robert Wilson",
+      "status": "Discontinued",
+      "datePrescribed": "2025-02-01"
+    },
+    {
+      "patientName": "Kimberly Brown",
+      "medication": "Omeprazole",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Active",
+      "datePrescribed": "2024-07-18"
+    },
+    {
+      "patientName": "Michael Perez",
+      "medication": "Losartan",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Completed",
+      "datePrescribed": "2025-01-19"
+    },
+    {
+      "patientName": "Emily Davis",
+      "medication": "Omeprazole",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Discontinued",
+      "datePrescribed": "2024-07-30"
+    },
+    {
+      "patientName": "Richard Lopez",
+      "medication": "Aspirin",
+      "dosage": "850mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Completed",
+      "datePrescribed": "2025-01-28"
+    },
+    {
+      "patientName": "Michael Hernandez",
+      "medication": "Omeprazole",
+      "dosage": "850mg",
+      "prescribingDoctor": "Dr. Robert Wilson",
+      "status": "Discontinued",
+      "datePrescribed": "2024-04-07"
+    },
+    {
+      "patientName": "James Jones",
+      "medication": "Aspirin",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. Sarah Williams",
+      "status": "Discontinued",
+      "datePrescribed": "2024-12-13"
+    },
+    {
+      "patientName": "Melissa Ramirez",
+      "medication": "Levothyroxine",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Discontinued",
+      "datePrescribed": "2024-10-06"
+    },
+    {
+      "patientName": "Robert Miller",
+      "medication": "Omeprazole",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. Sarah Williams",
+      "status": "Discontinued",
+      "datePrescribed": "2024-02-13"
+    },
+    {
+      "patientName": "Robert Gonzalez",
+      "medication": "Losartan",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. Lisa Miller",
+      "status": "Discontinued",
+      "datePrescribed": "2024-02-26"
+    },
+    {
+      "patientName": "Thomas Ramirez",
+      "medication": "Omeprazole",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Active",
+      "datePrescribed": "2024-11-10"
+    },
+    {
+      "patientName": "Robert Martinez",
+      "medication": "Sertraline",
+      "dosage": "850mg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Active",
+      "datePrescribed": "2024-09-29"
+    },
+    {
+      "patientName": "Ashley Wilson",
+      "medication": "Atorvastatin",
+      "dosage": "500mg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Active",
+      "datePrescribed": "2024-10-04"
+    },
+    {
+      "patientName": "Matthew Thomas",
+      "medication": "Lisinopril",
+      "dosage": "500mg",
+      "prescribingDoctor": "Dr. Lisa Miller",
+      "status": "Active",
+      "datePrescribed": "2024-11-19"
+    },
+    {
+      "patientName": "Sarah Rodriguez",
+      "medication": "Levothyroxine",
+      "dosage": "40mg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Completed",
+      "datePrescribed": "2024-10-01"
+    },
+    {
+      "patientName": "Jessica Sanchez",
+      "medication": "Omeprazole",
+      "dosage": "40mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Active",
+      "datePrescribed": "2024-11-04"
+    },
+    {
+      "patientName": "Karen Harris",
+      "medication": "Metformin",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. David Anderson",
+      "status": "Completed",
+      "datePrescribed": "2024-11-14"
+    },
+    {
+      "patientName": "Kevin Ramirez",
+      "medication": "Sertraline",
+      "dosage": "850mg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Active",
+      "datePrescribed": "2024-09-24"
+    },
+    {
+      "patientName": "Charles Clark",
+      "medication": "Sertraline",
+      "dosage": "40mg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Discontinued",
+      "datePrescribed": "2024-12-05"
+    },
+    {
+      "patientName": "Emily Thompson",
+      "medication": "Losartan",
+      "dosage": "20mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Completed",
+      "datePrescribed": "2024-05-24"
+    },
+    {
+      "patientName": "Nancy Ramirez",
+      "medication": "Amoxicillin",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. Sarah Williams",
+      "status": "Active",
+      "datePrescribed": "2024-11-20"
+    },
+    {
+      "patientName": "Jennifer Gonzalez",
+      "medication": "Lisinopril",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Completed",
+      "datePrescribed": "2024-09-05"
+    },
+    {
+      "patientName": "Karen Hernandez",
+      "medication": "Metformin",
+      "dosage": "20mg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Completed",
+      "datePrescribed": "2024-11-23"
+    },
+    {
+      "patientName": "Susan Perez",
+      "medication": "Losartan",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. Robert Wilson",
+      "status": "Active",
+      "datePrescribed": "2024-06-03"
+    },
+    {
+      "patientName": "Lisa Moore",
+      "medication": "Levothyroxine",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. Sarah Williams",
+      "status": "Active",
+      "datePrescribed": "2025-01-13"
+    },
+    {
+      "patientName": "Nancy Garcia",
+      "medication": "Metformin",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Emily Johnson",
+      "status": "Discontinued",
+      "datePrescribed": "2024-09-21"
+    },
+    {
+      "patientName": "Emily Martinez",
+      "medication": "Aspirin",
+      "dosage": "40mg",
+      "prescribingDoctor": "Dr. John Smith",
+      "status": "Active",
+      "datePrescribed": "2024-02-27"
+    },
+    {
+      "patientName": "Charles Brown",
+      "medication": "Omeprazole",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Active",
+      "datePrescribed": "2025-02-04"
+    },
+    {
+      "patientName": "Joseph Davis",
+      "medication": "Atorvastatin",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Sarah Williams",
+      "status": "Completed",
+      "datePrescribed": "2024-08-17"
+    },
+    {
+      "patientName": "Elizabeth Jones",
+      "medication": "Metformin",
+      "dosage": "850mg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Discontinued",
+      "datePrescribed": "2024-06-03"
+    },
+    {
+      "patientName": "Melissa Garcia",
+      "medication": "Atorvastatin",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Active",
+      "datePrescribed": "2024-08-03"
+    },
+    {
+      "patientName": "John Lopez",
+      "medication": "Atorvastatin",
+      "dosage": "20mg",
+      "prescribingDoctor": "Dr. Emily Johnson",
+      "status": "Completed",
+      "datePrescribed": "2024-06-18"
+    },
+    {
+      "patientName": "Joshua Lewis",
+      "medication": "Losartan",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Discontinued",
+      "datePrescribed": "2024-10-02"
+    },
+    {
+      "patientName": "John Hernandez",
+      "medication": "Omeprazole",
+      "dosage": "40mg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Active",
+      "datePrescribed": "2024-08-26"
+    },
+    {
+      "patientName": "Lisa Anderson",
+      "medication": "Atorvastatin",
+      "dosage": "500mg",
+      "prescribingDoctor": "Dr. Robert Wilson",
+      "status": "Completed",
+      "datePrescribed": "2024-03-22"
+    },
+    {
+      "patientName": "John Brown",
+      "medication": "Sertraline",
+      "dosage": "850mg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Completed",
+      "datePrescribed": "2024-07-25"
+    },
+    {
+      "patientName": "Joshua Martinez",
+      "medication": "Omeprazole",
+      "dosage": "40mg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Completed",
+      "datePrescribed": "2024-03-21"
+    },
+    {
+      "patientName": "Charles Harris",
+      "medication": "Lisinopril",
+      "dosage": "850mg",
+      "prescribingDoctor": "Dr. Sarah Williams",
+      "status": "Completed",
+      "datePrescribed": "2024-09-20"
+    },
+    {
+      "patientName": "Susan Wilson",
+      "medication": "Losartan",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Active",
+      "datePrescribed": "2024-06-14"
+    },
+    {
+      "patientName": "Daniel Miller",
+      "medication": "Amoxicillin",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Active",
+      "datePrescribed": "2024-12-12"
+    },
+    {
+      "patientName": "Jessica Perez",
+      "medication": "Ibuprofen",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. John Smith",
+      "status": "Discontinued",
+      "datePrescribed": "2024-04-26"
+    },
+    {
+      "patientName": "Lisa Anderson",
+      "medication": "Aspirin",
+      "dosage": "20mg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Active",
+      "datePrescribed": "2024-02-21"
+    },
+    {
+      "patientName": "Emily Ramirez",
+      "medication": "Amoxicillin",
+      "dosage": "40mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Completed",
+      "datePrescribed": "2024-12-12"
+    },
+    {
+      "patientName": "Emily Lopez",
+      "medication": "Omeprazole",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Discontinued",
+      "datePrescribed": "2024-06-01"
+    },
+    {
+      "patientName": "Kevin Brown",
+      "medication": "Sertraline",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. John Smith",
+      "status": "Discontinued",
+      "datePrescribed": "2024-05-14"
+    },
+    {
+      "patientName": "Melissa Martin",
+      "medication": "Sertraline",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. Robert Wilson",
+      "status": "Discontinued",
+      "datePrescribed": "2024-12-25"
+    },
+    {
+      "patientName": "Barbara Lewis",
+      "medication": "Metformin",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. Lisa Miller",
+      "status": "Completed",
+      "datePrescribed": "2025-01-01"
+    },
+    {
+      "patientName": "Jessica Rodriguez",
+      "medication": "Ibuprofen",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. Sarah Williams",
+      "status": "Active",
+      "datePrescribed": "2024-08-30"
+    },
+    {
+      "patientName": "Mary Gonzalez",
+      "medication": "Metformin",
+      "dosage": "20mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Completed",
+      "datePrescribed": "2024-04-14"
+    },
+    {
+      "patientName": "David Thompson",
+      "medication": "Levothyroxine",
+      "dosage": "500mg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Active",
+      "datePrescribed": "2024-10-17"
+    },
+    {
+      "patientName": "Joshua Robinson",
+      "medication": "Lisinopril",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. Lisa Miller",
+      "status": "Discontinued",
+      "datePrescribed": "2025-01-18"
+    },
+    {
+      "patientName": "Kevin Johnson",
+      "medication": "Sertraline",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. David Anderson",
+      "status": "Active",
+      "datePrescribed": "2024-06-14"
+    },
+    {
+      "patientName": "Susan Garcia",
+      "medication": "Sertraline",
+      "dosage": "500mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Active",
+      "datePrescribed": "2024-03-23"
+    },
+    {
+      "patientName": "Susan Moore",
+      "medication": "Atorvastatin",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Completed",
+      "datePrescribed": "2024-02-18"
+    },
+    {
+      "patientName": "Patricia Williams",
+      "medication": "Ibuprofen",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Lisa Miller",
+      "status": "Completed",
+      "datePrescribed": "2024-04-26"
+    },
+    {
+      "patientName": "Susan Thompson",
+      "medication": "Lisinopril",
+      "dosage": "500mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Discontinued",
+      "datePrescribed": "2024-03-16"
+    },
+    {
+      "patientName": "Robert Jackson",
+      "medication": "Ibuprofen",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. John Smith",
+      "status": "Active",
+      "datePrescribed": "2024-03-18"
+    },
+    {
+      "patientName": "Thomas Harris",
+      "medication": "Aspirin",
+      "dosage": "20mg",
+      "prescribingDoctor": "Dr. Emily Johnson",
+      "status": "Discontinued",
+      "datePrescribed": "2024-08-22"
+    },
+    {
+      "patientName": "Nancy Lewis",
+      "medication": "Amoxicillin",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. Lisa Miller",
+      "status": "Active",
+      "datePrescribed": "2024-11-01"
+    },
+    {
+      "patientName": "Patricia Harris",
+      "medication": "Ibuprofen",
+      "dosage": "20mg",
+      "prescribingDoctor": "Dr. Robert Wilson",
+      "status": "Completed",
+      "datePrescribed": "2024-10-30"
+    },
+    {
+      "patientName": "Michael Wilson",
+      "medication": "Losartan",
+      "dosage": "40mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Active",
+      "datePrescribed": "2024-07-14"
+    },
+    {
+      "patientName": "Kimberly Gonzalez",
+      "medication": "Metformin",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. Sarah Williams",
+      "status": "Completed",
+      "datePrescribed": "2024-06-10"
+    },
+    {
+      "patientName": "David Rodriguez",
+      "medication": "Atorvastatin",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. Lisa Miller",
+      "status": "Completed",
+      "datePrescribed": "2024-05-26"
+    },
+    {
+      "patientName": "Sarah Brown",
+      "medication": "Levothyroxine",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Completed",
+      "datePrescribed": "2024-11-17"
+    },
+    {
+      "patientName": "Linda Brown",
+      "medication": "Atorvastatin",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. David Anderson",
+      "status": "Active",
+      "datePrescribed": "2024-03-27"
+    },
+    {
+      "patientName": "Mary Gonzalez",
+      "medication": "Metformin",
+      "dosage": "850mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Discontinued",
+      "datePrescribed": "2024-04-03"
+    },
+    {
+      "patientName": "Joseph Harris",
+      "medication": "Amoxicillin",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Active",
+      "datePrescribed": "2024-10-25"
+    },
+    {
+      "patientName": "Karen Williams",
+      "medication": "Omeprazole",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Lisa Miller",
+      "status": "Active",
+      "datePrescribed": "2024-07-11"
+    },
+    {
+      "patientName": "Jennifer Taylor",
+      "medication": "Aspirin",
+      "dosage": "20mg",
+      "prescribingDoctor": "Dr. John Smith",
+      "status": "Discontinued",
+      "datePrescribed": "2025-01-06"
+    },
+    {
+      "patientName": "Sarah Anderson",
+      "medication": "Ibuprofen",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Sarah Williams",
+      "status": "Discontinued",
+      "datePrescribed": "2024-11-04"
+    },
+    {
+      "patientName": "Emily Anderson",
+      "medication": "Metformin",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Discontinued",
+      "datePrescribed": "2024-02-23"
+    },
+    {
+      "patientName": "Charles Martinez",
+      "medication": "Sertraline",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Lisa Miller",
+      "status": "Completed",
+      "datePrescribed": "2024-05-28"
+    },
+    {
+      "patientName": "Daniel Brown",
+      "medication": "Sertraline",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Active",
+      "datePrescribed": "2024-12-27"
+    },
+    {
+      "patientName": "David Smith",
+      "medication": "Ibuprofen",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Robert Wilson",
+      "status": "Discontinued",
+      "datePrescribed": "2024-11-02"
+    },
+    {
+      "patientName": "John Garcia",
+      "medication": "Omeprazole",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. Lisa Miller",
+      "status": "Discontinued",
+      "datePrescribed": "2024-08-23"
+    },
+    {
+      "patientName": "Michael Johnson",
+      "medication": "Atorvastatin",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Active",
+      "datePrescribed": "2024-06-18"
+    },
+    {
+      "patientName": "James Lee",
+      "medication": "Levothyroxine",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Completed",
+      "datePrescribed": "2024-08-19"
+    },
+    {
+      "patientName": "William Sanchez",
+      "medication": "Aspirin",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Discontinued",
+      "datePrescribed": "2024-05-21"
+    },
+    {
+      "patientName": "William Anderson",
+      "medication": "Levothyroxine",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Discontinued",
+      "datePrescribed": "2025-01-24"
+    },
+    {
+      "patientName": "Mary Miller",
+      "medication": "Levothyroxine",
+      "dosage": "500mg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Completed",
+      "datePrescribed": "2024-05-09"
+    },
+    {
+      "patientName": "William Davis",
+      "medication": "Amoxicillin",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Emily Johnson",
+      "status": "Active",
+      "datePrescribed": "2024-04-24"
+    },
+    {
+      "patientName": "Barbara Garcia",
+      "medication": "Amoxicillin",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Completed",
+      "datePrescribed": "2024-09-16"
+    },
+    {
+      "patientName": "Emily Lee",
+      "medication": "Lisinopril",
+      "dosage": "40mg",
+      "prescribingDoctor": "Dr. Lisa Miller",
+      "status": "Completed",
+      "datePrescribed": "2024-11-02"
+    },
+    {
+      "patientName": "Patricia Perez",
+      "medication": "Ibuprofen",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Active",
+      "datePrescribed": "2025-02-12"
+    },
+    {
+      "patientName": "Jennifer Perez",
+      "medication": "Amoxicillin",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Discontinued",
+      "datePrescribed": "2024-05-12"
+    },
+    {
+      "patientName": "Jennifer Moore",
+      "medication": "Metformin",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. Robert Wilson",
+      "status": "Active",
+      "datePrescribed": "2024-12-18"
+    },
+    {
+      "patientName": "Sarah Smith",
+      "medication": "Atorvastatin",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. Robert Wilson",
+      "status": "Discontinued",
+      "datePrescribed": "2024-09-12"
+    },
+    {
+      "patientName": "Michael Jackson",
+      "medication": "Lisinopril",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Completed",
+      "datePrescribed": "2024-08-21"
+    },
+    {
+      "patientName": "Elizabeth Brown",
+      "medication": "Sertraline",
+      "dosage": "850mg",
+      "prescribingDoctor": "Dr. John Smith",
+      "status": "Completed",
+      "datePrescribed": "2024-08-20"
+    },
+    {
+      "patientName": "Joseph Robinson",
+      "medication": "Omeprazole",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. John Smith",
+      "status": "Discontinued",
+      "datePrescribed": "2024-08-28"
+    },
+    {
+      "patientName": "Melissa Martin",
+      "medication": "Levothyroxine",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. Lisa Miller",
+      "status": "Active",
+      "datePrescribed": "2024-06-19"
+    },
+    {
+      "patientName": "Robert Miller",
+      "medication": "Losartan",
+      "dosage": "20mg",
+      "prescribingDoctor": "Dr. Emily Johnson",
+      "status": "Discontinued",
+      "datePrescribed": "2025-02-12"
+    },
+    {
+      "patientName": "Kevin Miller",
+      "medication": "Metformin",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Discontinued",
+      "datePrescribed": "2025-02-05"
+    },
+    {
+      "patientName": "Nancy Harris",
+      "medication": "Amoxicillin",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Discontinued",
+      "datePrescribed": "2024-06-11"
+    },
+    {
+      "patientName": "Richard Garcia",
+      "medication": "Sertraline",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. John Smith",
+      "status": "Discontinued",
+      "datePrescribed": "2024-11-06"
+    },
+    {
+      "patientName": "Mary Sanchez",
+      "medication": "Amoxicillin",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Discontinued",
+      "datePrescribed": "2024-10-24"
+    },
+    {
+      "patientName": "James Johnson",
+      "medication": "Ibuprofen",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. John Smith",
+      "status": "Completed",
+      "datePrescribed": "2024-11-12"
+    },
+    {
+      "patientName": "Emily Lee",
+      "medication": "Losartan",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. John Smith",
+      "status": "Discontinued",
+      "datePrescribed": "2024-08-29"
+    },
+    {
+      "patientName": "Kevin Wilson",
+      "medication": "Omeprazole",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Sarah Williams",
+      "status": "Discontinued",
+      "datePrescribed": "2024-05-30"
+    },
+    {
+      "patientName": "Kevin Johnson",
+      "medication": "Ibuprofen",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Lisa Miller",
+      "status": "Completed",
+      "datePrescribed": "2024-02-20"
+    },
+    {
+      "patientName": "David Rodriguez",
+      "medication": "Ibuprofen",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. Sarah Williams",
+      "status": "Completed",
+      "datePrescribed": "2024-09-05"
+    },
+    {
+      "patientName": "John Anderson",
+      "medication": "Lisinopril",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Discontinued",
+      "datePrescribed": "2024-08-17"
+    },
+    {
+      "patientName": "Matthew Thompson",
+      "medication": "Lisinopril",
+      "dosage": "500mg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Discontinued",
+      "datePrescribed": "2024-04-10"
+    },
+    {
+      "patientName": "Daniel Thompson",
+      "medication": "Omeprazole",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. Sarah Williams",
+      "status": "Active",
+      "datePrescribed": "2024-10-31"
+    },
+    {
+      "patientName": "Joseph Jackson",
+      "medication": "Amoxicillin",
+      "dosage": "850mg",
+      "prescribingDoctor": "Dr. David Anderson",
+      "status": "Discontinued",
+      "datePrescribed": "2025-02-03"
+    },
+    {
+      "patientName": "Barbara Harris",
+      "medication": "Aspirin",
+      "dosage": "20mg",
+      "prescribingDoctor": "Dr. Lisa Miller",
+      "status": "Completed",
+      "datePrescribed": "2024-08-03"
+    },
+    {
+      "patientName": "Lisa Garcia",
+      "medication": "Metformin",
+      "dosage": "850mg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Discontinued",
+      "datePrescribed": "2024-09-22"
+    },
+    {
+      "patientName": "Robert Robinson",
+      "medication": "Aspirin",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Discontinued",
+      "datePrescribed": "2024-05-30"
+    },
+    {
+      "patientName": "Kevin Lopez",
+      "medication": "Omeprazole",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. Emily Johnson",
+      "status": "Active",
+      "datePrescribed": "2024-09-25"
+    },
+    {
+      "patientName": "Thomas Rodriguez",
+      "medication": "Metformin",
+      "dosage": "850mg",
+      "prescribingDoctor": "Dr. John Smith",
+      "status": "Completed",
+      "datePrescribed": "2024-06-25"
+    },
+    {
+      "patientName": "Susan Davis",
+      "medication": "Sertraline",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. Sarah Williams",
+      "status": "Active",
+      "datePrescribed": "2024-12-12"
+    },
+    {
+      "patientName": "Jennifer Lee",
+      "medication": "Metformin",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Active",
+      "datePrescribed": "2024-12-03"
+    },
+    {
+      "patientName": "Nancy Anderson",
+      "medication": "Losartan",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. Robert Wilson",
+      "status": "Completed",
+      "datePrescribed": "2024-09-19"
+    },
+    {
+      "patientName": "Melissa Davis",
+      "medication": "Ibuprofen",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Completed",
+      "datePrescribed": "2024-09-25"
+    },
+    {
+      "patientName": "John White",
+      "medication": "Omeprazole",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. John Smith",
+      "status": "Active",
+      "datePrescribed": "2024-08-30"
+    },
+    {
+      "patientName": "Daniel Lewis",
+      "medication": "Aspirin",
+      "dosage": "500mg",
+      "prescribingDoctor": "Dr. Lisa Miller",
+      "status": "Active",
+      "datePrescribed": "2024-11-13"
+    },
+    {
+      "patientName": "Kimberly Anderson",
+      "medication": "Metformin",
+      "dosage": "20mg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Active",
+      "datePrescribed": "2024-09-17"
+    },
+    {
+      "patientName": "Emily Anderson",
+      "medication": "Ibuprofen",
+      "dosage": "500mg",
+      "prescribingDoctor": "Dr. David Anderson",
+      "status": "Discontinued",
+      "datePrescribed": "2024-11-18"
+    },
+    {
+      "patientName": "John Clark",
+      "medication": "Omeprazole",
+      "dosage": "500mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Active",
+      "datePrescribed": "2025-01-08"
+    },
+    {
+      "patientName": "Kimberly Thompson",
+      "medication": "Lisinopril",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Active",
+      "datePrescribed": "2024-03-05"
+    },
+    {
+      "patientName": "Karen Moore",
+      "medication": "Aspirin",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Discontinued",
+      "datePrescribed": "2024-12-15"
+    },
+    {
+      "patientName": "Jennifer Johnson",
+      "medication": "Sertraline",
+      "dosage": "40mg",
+      "prescribingDoctor": "Dr. Sarah Williams",
+      "status": "Discontinued",
+      "datePrescribed": "2024-06-10"
+    },
+    {
+      "patientName": "Emily Jones",
+      "medication": "Atorvastatin",
+      "dosage": "20mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Discontinued",
+      "datePrescribed": "2024-02-24"
+    },
+    {
+      "patientName": "Linda Thompson",
+      "medication": "Atorvastatin",
+      "dosage": "20mg",
+      "prescribingDoctor": "Dr. Emily Johnson",
+      "status": "Completed",
+      "datePrescribed": "2024-06-25"
+    },
+    {
+      "patientName": "William Martin",
+      "medication": "Sertraline",
+      "dosage": "40mg",
+      "prescribingDoctor": "Dr. Robert Wilson",
+      "status": "Active",
+      "datePrescribed": "2024-04-06"
+    },
+    {
+      "patientName": "Matthew Thomas",
+      "medication": "Ibuprofen",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Completed",
+      "datePrescribed": "2024-06-12"
+    },
+    {
+      "patientName": "Robert Smith",
+      "medication": "Sertraline",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. Emily Johnson",
+      "status": "Completed",
+      "datePrescribed": "2024-12-18"
+    },
+    {
+      "patientName": "James Sanchez",
+      "medication": "Sertraline",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Discontinued",
+      "datePrescribed": "2024-05-22"
+    },
+    {
+      "patientName": "Barbara Johnson",
+      "medication": "Omeprazole",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Completed",
+      "datePrescribed": "2024-06-29"
+    },
+    {
+      "patientName": "David Garcia",
+      "medication": "Aspirin",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Discontinued",
+      "datePrescribed": "2024-04-21"
+    },
+    {
+      "patientName": "Joshua Johnson",
+      "medication": "Omeprazole",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Discontinued",
+      "datePrescribed": "2024-08-17"
+    },
+    {
+      "patientName": "Barbara Lewis",
+      "medication": "Metformin",
+      "dosage": "850mg",
+      "prescribingDoctor": "Dr. David Anderson",
+      "status": "Discontinued",
+      "datePrescribed": "2024-02-16"
+    },
+    {
+      "patientName": "Jessica Wilson",
+      "medication": "Losartan",
+      "dosage": "50mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Completed",
+      "datePrescribed": "2024-04-13"
+    },
+    {
+      "patientName": "Kevin Wilson",
+      "medication": "Metformin",
+      "dosage": "20mg",
+      "prescribingDoctor": "Dr. Sarah Williams",
+      "status": "Completed",
+      "datePrescribed": "2024-04-09"
+    },
+    {
+      "patientName": "Nancy Thomas",
+      "medication": "Omeprazole",
+      "dosage": "40mg",
+      "prescribingDoctor": "Dr. David Anderson",
+      "status": "Active",
+      "datePrescribed": "2024-05-23"
+    },
+    {
+      "patientName": "Lisa Jones",
+      "medication": "Metformin",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Completed",
+      "datePrescribed": "2024-08-20"
+    },
+    {
+      "patientName": "Linda Rodriguez",
+      "medication": "Atorvastatin",
+      "dosage": "40mg",
+      "prescribingDoctor": "Dr. Michael Brown",
+      "status": "Active",
+      "datePrescribed": "2024-04-14"
+    },
+    {
+      "patientName": "Susan Lopez",
+      "medication": "Atorvastatin",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. Sarah Williams",
+      "status": "Active",
+      "datePrescribed": "2024-12-15"
+    },
+    {
+      "patientName": "Daniel Lopez",
+      "medication": "Levothyroxine",
+      "dosage": "75mcg",
+      "prescribingDoctor": "Dr. John Smith",
+      "status": "Active",
+      "datePrescribed": "2024-10-06"
+    },
+    {
+      "patientName": "Joshua Williams",
+      "medication": "Metformin",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. Emily Johnson",
+      "status": "Discontinued",
+      "datePrescribed": "2024-04-07"
+    },
+    {
+      "patientName": "Thomas Garcia",
+      "medication": "Sertraline",
+      "dosage": "10mg",
+      "prescribingDoctor": "Dr. Emily Johnson",
+      "status": "Completed",
+      "datePrescribed": "2024-04-16"
+    },
+    {
+      "patientName": "Michael Garcia",
+      "medication": "Omeprazole",
+      "dosage": "20mg",
+      "prescribingDoctor": "Dr. Sarah Williams",
+      "status": "Completed",
+      "datePrescribed": "2025-01-23"
+    },
+    {
+      "patientName": "Nancy Lee",
+      "medication": "Metformin",
+      "dosage": "500mg",
+      "prescribingDoctor": "Dr. Robert Wilson",
+      "status": "Active",
+      "datePrescribed": "2024-03-09"
+    },
+    {
+      "patientName": "Charles Jackson",
+      "medication": "Atorvastatin",
+      "dosage": "40mg",
+      "prescribingDoctor": "Dr. William Martinez",
+      "status": "Active",
+      "datePrescribed": "2024-04-11"
+    },
+    {
+      "patientName": "John Martin",
+      "medication": "Amoxicillin",
+      "dosage": "81mg",
+      "prescribingDoctor": "Dr. Mary Garcia",
+      "status": "Completed",
+      "datePrescribed": "2024-05-01"
+    },
+    {
+      "patientName": "James Anderson",
+      "medication": "Atorvastatin",
+      "dosage": "20mg",
+      "prescribingDoctor": "Dr. James Davis",
+      "status": "Discontinued",
+      "datePrescribed": "2024-04-19"
+    },
+    {
+      "patientName": "Michael Johnson",
+      "medication": "Metformin",
+      "dosage": "200mg",
+      "prescribingDoctor": "Dr. Lisa Miller",
+      "status": "Active",
+      "datePrescribed": "2024-12-06"
+    }
+  ]

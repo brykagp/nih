@@ -1,0 +1,2752 @@
+[
+    {
+        "id": 1,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "b08a190b-548a-4abe-b527-4522d655f30a"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "John Williams",
+            "family": "Williams",
+            "given": [
+                "John"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "suffix": [],
+            "period": "2023-09-18"
+        },
+        "gender": "male",
+        "birthDate": "1996-03-01",
+        "address": {
+            "line": [
+                "623 Main St"
+            ],
+            "city": "Los Angeles",
+            "state": "TX",
+            "postalCode": "66027",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-396-125-2676",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Syphilis",
+                "onsetDate": "2019-12-05",
+                "clinicalStatus": "resolved"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "HPV Test",
+            "testResult": "negative",
+            "date": "2024-12-01"
+        },
+        "follow_up_date": "2025-01-24",
+        "partner_notification_status": "pending",
+        "health_department_alert": "no_alert"
+    },
+    {
+        "id": 2,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "242c65d8-6469-45d1-8781-0fac58d61be6"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Sarah Johnson",
+            "family": "Johnson",
+            "given": [
+                "Sarah"
+            ],
+            "prefix": [
+                "Ms."
+            ],
+            "suffix": [],
+            "period": "2023-03-25"
+        },
+        "gender": "female",
+        "birthDate": "1990-10-20",
+        "address": {
+            "line": [
+                "150 Main St"
+            ],
+            "city": "Houston",
+            "state": "TX",
+            "postalCode": "56782",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-353-326-4176",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "HIV",
+                "onsetDate": "2020-01-12",
+                "clinicalStatus": "active"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "HIV Test",
+            "testResult": "inconclusive",
+            "date": "2023-11-19"
+        },
+        "follow_up_date": "2024-06-20",
+        "partner_notification_status": "notified",
+        "health_department_alert": "alert"
+    },
+    {
+        "id": 3,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "debb5bd0-f361-4f69-8241-49ea2b889c2c"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Emily Garcia",
+            "family": "Garcia",
+            "given": [
+                "Emily"
+            ],
+            "prefix": [
+                "Ms."
+            ],
+            "suffix": [],
+            "period": "2024-04-06"
+        },
+        "gender": "male",
+        "birthDate": "1960-08-30",
+        "address": {
+            "line": [
+                "660 Main St"
+            ],
+            "city": "Chicago",
+            "state": "TX",
+            "postalCode": "37341",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-572-638-2691",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Chlamydia",
+                "onsetDate": "2020-04-16",
+                "clinicalStatus": "recurrence"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Gonorrhea Test",
+            "testResult": "inconclusive",
+            "date": "2022-02-25"
+        },
+        "follow_up_date": "2024-07-20",
+        "partner_notification_status": "notified",
+        "health_department_alert": "no_alert"
+    },
+    {
+        "id": 4,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "605c8500-5b61-4a0c-8688-2ef74076799d"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Emily Williams",
+            "family": "Williams",
+            "given": [
+                "Emily"
+            ],
+            "prefix": [
+                "Ms."
+            ],
+            "suffix": [],
+            "period": "2020-08-31"
+        },
+        "gender": "male",
+        "birthDate": "1952-01-01",
+        "address": {
+            "line": [
+                "624 Main St"
+            ],
+            "city": "New York",
+            "state": "CA",
+            "postalCode": "60657",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-960-114-7921",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Gonorrhea",
+                "onsetDate": "2021-06-17",
+                "clinicalStatus": "active"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Syphilis Test",
+            "testResult": "negative",
+            "date": "2022-12-14"
+        },
+        "follow_up_date": "2025-04-12",
+        "partner_notification_status": "notified",
+        "health_department_alert": "alert"
+    },
+    {
+        "id": 5,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "42584ee8-1db8-43a2-b1d2-4df5863f2aac"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Sarah Johnson",
+            "family": "Johnson",
+            "given": [
+                "Sarah"
+            ],
+            "prefix": [
+                "Ms."
+            ],
+            "suffix": [],
+            "period": "2024-06-24"
+        },
+        "gender": "female",
+        "birthDate": "1990-07-29",
+        "address": {
+            "line": [
+                "668 Main St"
+            ],
+            "city": "Los Angeles",
+            "state": "AZ",
+            "postalCode": "34532",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-826-482-9704",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "HIV",
+                "onsetDate": "2022-06-16",
+                "clinicalStatus": "active"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "HPV Test",
+            "testResult": "negative",
+            "date": "2024-01-05"
+        },
+        "follow_up_date": "2025-02-05",
+        "partner_notification_status": "notified",
+        "health_department_alert": "no_alert"
+    },
+    {
+        "id": 6,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "b36567c7-87af-4dc6-89f5-a86ae7c4407f"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "David Johnson",
+            "family": "Johnson",
+            "given": [
+                "David"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "suffix": [],
+            "period": "2021-10-27"
+        },
+        "gender": "female",
+        "birthDate": "1952-10-29",
+        "address": {
+            "line": [
+                "668 Main St"
+            ],
+            "city": "Phoenix",
+            "state": "IL",
+            "postalCode": "20373",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-935-685-6239",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "HIV",
+                "onsetDate": "2022-06-07",
+                "clinicalStatus": "resolved"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "HPV Test",
+            "testResult": "negative",
+            "date": "2020-04-21"
+        },
+        "follow_up_date": "2024-02-05",
+        "partner_notification_status": "pending",
+        "health_department_alert": "alert"
+    },
+    {
+        "id": 7,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "f96dedc2-eb0e-43ca-b87b-5081a1492165"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Emily Williams",
+            "family": "Williams",
+            "given": [
+                "Emily"
+            ],
+            "prefix": [
+                "Ms."
+            ],
+            "suffix": [],
+            "period": "2020-11-06"
+        },
+        "gender": "other",
+        "birthDate": "1983-07-20",
+        "address": {
+            "line": [
+                "309 Main St"
+            ],
+            "city": "Houston",
+            "state": "AZ",
+            "postalCode": "74972",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-262-988-1834",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Chlamydia",
+                "onsetDate": "2022-03-08",
+                "clinicalStatus": "active"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Gonorrhea Test",
+            "testResult": "inconclusive",
+            "date": "2024-05-25"
+        },
+        "follow_up_date": "2025-09-22",
+        "partner_notification_status": "none",
+        "health_department_alert": "no_alert"
+    },
+    {
+        "id": 8,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "ba6cd6e7-fee4-4b8d-8dd9-c93a85b61b03"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Emily Doe",
+            "family": "Doe",
+            "given": [
+                "Emily"
+            ],
+            "prefix": [
+                "Ms."
+            ],
+            "suffix": [],
+            "period": "2022-09-19"
+        },
+        "gender": "male",
+        "birthDate": "1951-02-03",
+        "address": {
+            "line": [
+                "175 Main St"
+            ],
+            "city": "Chicago",
+            "state": "TX",
+            "postalCode": "50296",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-430-273-4717",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Gonorrhea",
+                "onsetDate": "2021-01-30",
+                "clinicalStatus": "recurrence"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Syphilis Test",
+            "testResult": "inconclusive",
+            "date": "2021-01-07"
+        },
+        "follow_up_date": "2025-09-09",
+        "partner_notification_status": "pending",
+        "health_department_alert": "alert"
+    },
+    {
+        "id": 9,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "903cdac5-a0f1-429c-9bae-ec5c5703d557"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Emily Brown",
+            "family": "Brown",
+            "given": [
+                "Emily"
+            ],
+            "prefix": [
+                "Ms."
+            ],
+            "suffix": [],
+            "period": "2023-11-25"
+        },
+        "gender": "female",
+        "birthDate": "1987-10-23",
+        "address": {
+            "line": [
+                "335 Main St"
+            ],
+            "city": "New York",
+            "state": "CA",
+            "postalCode": "89070",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-633-293-1792",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Gonorrhea",
+                "onsetDate": "2021-06-28",
+                "clinicalStatus": "resolved"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Chlamydia Test",
+            "testResult": "negative",
+            "date": "2022-12-16"
+        },
+        "follow_up_date": "2024-06-26",
+        "partner_notification_status": "pending",
+        "health_department_alert": "no_alert"
+    },
+    {
+        "id": 10,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "eb429ee2-c415-4e61-93ba-000cf362ee59"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Michael Jones",
+            "family": "Jones",
+            "given": [
+                "Michael"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "suffix": [],
+            "period": "2020-12-16"
+        },
+        "gender": "unknown",
+        "birthDate": "1999-04-04",
+        "address": {
+            "line": [
+                "518 Main St"
+            ],
+            "city": "Los Angeles",
+            "state": "AZ",
+            "postalCode": "43684",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-450-794-4551",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Chlamydia",
+                "onsetDate": "2024-02-21",
+                "clinicalStatus": "resolved"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "HPV Test",
+            "testResult": "negative",
+            "date": "2020-09-22"
+        },
+        "follow_up_date": "2024-08-24",
+        "partner_notification_status": "notified",
+        "health_department_alert": "alert"
+    },
+    {
+        "id": 11,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "fd458460-bdbe-4d99-9da7-e11d665e8d94"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Anna Jones",
+            "family": "Jones",
+            "given": [
+                "Anna"
+            ],
+            "prefix": [
+                "Ms."
+            ],
+            "suffix": [],
+            "period": "2021-07-13"
+        },
+        "gender": "other",
+        "birthDate": "1961-12-05",
+        "address": {
+            "line": [
+                "441 Main St"
+            ],
+            "city": "Chicago",
+            "state": "TX",
+            "postalCode": "36199",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-605-648-3118",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "HIV",
+                "onsetDate": "2023-02-09",
+                "clinicalStatus": "active"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "HIV Test",
+            "testResult": "inconclusive",
+            "date": "2022-10-15"
+        },
+        "follow_up_date": "2024-10-02",
+        "partner_notification_status": "none",
+        "health_department_alert": "alert"
+    },
+    {
+        "id": 12,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "70e8d820-2dd2-4dff-8b73-e1cad8e5f741"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Robert Garcia",
+            "family": "Garcia",
+            "given": [
+                "Robert"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "suffix": [],
+            "period": "2022-01-29"
+        },
+        "gender": "unknown",
+        "birthDate": "1956-04-13",
+        "address": {
+            "line": [
+                "264 Main St"
+            ],
+            "city": "Los Angeles",
+            "state": "NY",
+            "postalCode": "82658",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-955-484-2769",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Chlamydia",
+                "onsetDate": "2020-09-21",
+                "clinicalStatus": "recurrence"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Gonorrhea Test",
+            "testResult": "positive",
+            "date": "2021-07-23"
+        },
+        "follow_up_date": "2025-01-04",
+        "partner_notification_status": "pending",
+        "health_department_alert": "no_alert"
+    },
+    {
+        "id": 13,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "547a2d8c-399b-491e-916b-170e7eda8649"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Michael Williams",
+            "family": "Williams",
+            "given": [
+                "Michael"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "suffix": [],
+            "period": "2023-01-19"
+        },
+        "gender": "female",
+        "birthDate": "1980-05-29",
+        "address": {
+            "line": [
+                "692 Main St"
+            ],
+            "city": "Los Angeles",
+            "state": "AZ",
+            "postalCode": "64817",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-658-318-4301",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Gonorrhea",
+                "onsetDate": "2019-03-16",
+                "clinicalStatus": "recurrence"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Gonorrhea Test",
+            "testResult": "negative",
+            "date": "2023-08-06"
+        },
+        "follow_up_date": "2024-03-14",
+        "partner_notification_status": "pending",
+        "health_department_alert": "no_alert"
+    },
+    {
+        "id": 14,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "83d55e09-78be-48a1-a6de-fa71158abfe9"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Robert Miller",
+            "family": "Miller",
+            "given": [
+                "Robert"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "suffix": [],
+            "period": "2022-08-15"
+        },
+        "gender": "male",
+        "birthDate": "2002-07-23",
+        "address": {
+            "line": [
+                "402 Main St"
+            ],
+            "city": "Chicago",
+            "state": "IL",
+            "postalCode": "69283",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-755-457-7162",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Gonorrhea",
+                "onsetDate": "2023-07-27",
+                "clinicalStatus": "active"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Syphilis Test",
+            "testResult": "negative",
+            "date": "2023-06-21"
+        },
+        "follow_up_date": "2024-01-01",
+        "partner_notification_status": "none",
+        "health_department_alert": "alert"
+    },
+    {
+        "id": 15,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "4a2ad3d4-0ac6-4ef1-92f8-dca6f9b99d12"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Sarah Smith",
+            "family": "Smith",
+            "given": [
+                "Sarah"
+            ],
+            "prefix": [
+                "Ms."
+            ],
+            "suffix": [],
+            "period": "2020-06-05"
+        },
+        "gender": "other",
+        "birthDate": "1966-04-23",
+        "address": {
+            "line": [
+                "841 Main St"
+            ],
+            "city": "New York",
+            "state": "CA",
+            "postalCode": "36146",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-509-435-6877",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Gonorrhea",
+                "onsetDate": "2022-12-30",
+                "clinicalStatus": "resolved"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "HPV Test",
+            "testResult": "negative",
+            "date": "2023-09-22"
+        },
+        "follow_up_date": "2024-08-19",
+        "partner_notification_status": "pending",
+        "health_department_alert": "no_alert"
+    },
+    {
+        "id": 16,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "f75d8b4d-d228-4235-8988-a06c204956cf"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Emily Johnson",
+            "family": "Johnson",
+            "given": [
+                "Emily"
+            ],
+            "prefix": [
+                "Ms."
+            ],
+            "suffix": [],
+            "period": "2023-08-08"
+        },
+        "gender": "unknown",
+        "birthDate": "1951-10-25",
+        "address": {
+            "line": [
+                "548 Main St"
+            ],
+            "city": "Phoenix",
+            "state": "AZ",
+            "postalCode": "54430",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-765-499-2659",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Syphilis",
+                "onsetDate": "2020-12-04",
+                "clinicalStatus": "resolved"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "HIV Test",
+            "testResult": "positive",
+            "date": "2020-05-07"
+        },
+        "follow_up_date": "2025-10-18",
+        "partner_notification_status": "notified",
+        "health_department_alert": "no_alert"
+    },
+    {
+        "id": 17,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "efa6abe7-4d42-49da-82d4-795710652f75"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "John Doe",
+            "family": "Doe",
+            "given": [
+                "John"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "suffix": [],
+            "period": "2021-11-06"
+        },
+        "gender": "unknown",
+        "birthDate": "1966-04-20",
+        "address": {
+            "line": [
+                "835 Main St"
+            ],
+            "city": "Chicago",
+            "state": "CA",
+            "postalCode": "28301",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-439-914-3982",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Chlamydia",
+                "onsetDate": "2023-07-06",
+                "clinicalStatus": "active"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Syphilis Test",
+            "testResult": "inconclusive",
+            "date": "2022-06-05"
+        },
+        "follow_up_date": "2025-02-14",
+        "partner_notification_status": "pending",
+        "health_department_alert": "no_alert"
+    },
+    {
+        "id": 18,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "8368c45a-deb4-48c2-8f02-7c3f38df9cdf"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Michael Brown",
+            "family": "Brown",
+            "given": [
+                "Michael"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "suffix": [],
+            "period": "2020-04-03"
+        },
+        "gender": "unknown",
+        "birthDate": "1960-11-05",
+        "address": {
+            "line": [
+                "452 Main St"
+            ],
+            "city": "Phoenix",
+            "state": "CA",
+            "postalCode": "78905",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-389-121-2737",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Chlamydia",
+                "onsetDate": "2024-07-09",
+                "clinicalStatus": "active"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Gonorrhea Test",
+            "testResult": "positive",
+            "date": "2020-08-04"
+        },
+        "follow_up_date": "2024-03-23",
+        "partner_notification_status": "pending",
+        "health_department_alert": "alert"
+    },
+    {
+        "id": 19,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "7a990483-39ea-4b2d-9d27-b2063d2c3a32"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Emily Brown",
+            "family": "Brown",
+            "given": [
+                "Emily"
+            ],
+            "prefix": [
+                "Ms."
+            ],
+            "suffix": [],
+            "period": "2024-01-21"
+        },
+        "gender": "unknown",
+        "birthDate": "1963-09-08",
+        "address": {
+            "line": [
+                "265 Main St"
+            ],
+            "city": "Chicago",
+            "state": "IL",
+            "postalCode": "33060",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-748-394-3507",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Syphilis",
+                "onsetDate": "2019-06-25",
+                "clinicalStatus": "recurrence"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "HIV Test",
+            "testResult": "positive",
+            "date": "2023-12-30"
+        },
+        "follow_up_date": "2024-03-19",
+        "partner_notification_status": "notified",
+        "health_department_alert": "alert"
+    },
+    {
+        "id": 20,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "d8ca370f-a072-46da-b67b-b8cfb7f170f5"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Michael Garcia",
+            "family": "Garcia",
+            "given": [
+                "Michael"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "suffix": [],
+            "period": "2022-07-28"
+        },
+        "gender": "unknown",
+        "birthDate": "1987-06-27",
+        "address": {
+            "line": [
+                "573 Main St"
+            ],
+            "city": "Houston",
+            "state": "TX",
+            "postalCode": "33408",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-375-793-9519",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "HIV",
+                "onsetDate": "2021-10-28",
+                "clinicalStatus": "active"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "HIV Test",
+            "testResult": "inconclusive",
+            "date": "2024-03-07"
+        },
+        "follow_up_date": "2024-10-18",
+        "partner_notification_status": "pending",
+        "health_department_alert": "no_alert"
+    },
+    {
+        "id": 21,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "b2140a96-ba79-4169-adbb-0c1c5d12cd3d"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Jane Jones",
+            "family": "Jones",
+            "given": [
+                "Jane"
+            ],
+            "prefix": [
+                "Ms."
+            ],
+            "suffix": [],
+            "period": "2022-10-10"
+        },
+        "gender": "unknown",
+        "birthDate": "1993-11-25",
+        "address": {
+            "line": [
+                "172 Main St"
+            ],
+            "city": "Phoenix",
+            "state": "CA",
+            "postalCode": "37333",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-578-173-5777",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Chlamydia",
+                "onsetDate": "2022-11-15",
+                "clinicalStatus": "recurrence"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Syphilis Test",
+            "testResult": "inconclusive",
+            "date": "2022-05-23"
+        },
+        "follow_up_date": "2025-06-25",
+        "partner_notification_status": "pending",
+        "health_department_alert": "alert"
+    },
+    {
+        "id": 22,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "e6c5ffed-59d2-4730-8e09-aa62cbfea9c0"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Anna Williams",
+            "family": "Williams",
+            "given": [
+                "Anna"
+            ],
+            "prefix": [
+                "Ms."
+            ],
+            "suffix": [],
+            "period": "2023-06-04"
+        },
+        "gender": "other",
+        "birthDate": "1981-10-27",
+        "address": {
+            "line": [
+                "710 Main St"
+            ],
+            "city": "Los Angeles",
+            "state": "AZ",
+            "postalCode": "98371",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-750-363-9379",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Gonorrhea",
+                "onsetDate": "2023-03-31",
+                "clinicalStatus": "recurrence"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Syphilis Test",
+            "testResult": "negative",
+            "date": "2023-04-08"
+        },
+        "follow_up_date": "2024-05-25",
+        "partner_notification_status": "pending",
+        "health_department_alert": "alert"
+    },
+    {
+        "id": 23,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "c20d5ad9-7f98-4404-9150-193e3a94c7d5"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Michael Miller",
+            "family": "Miller",
+            "given": [
+                "Michael"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "suffix": [],
+            "period": "2020-09-14"
+        },
+        "gender": "unknown",
+        "birthDate": "1980-02-06",
+        "address": {
+            "line": [
+                "944 Main St"
+            ],
+            "city": "Houston",
+            "state": "CA",
+            "postalCode": "35296",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-451-842-6844",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Chlamydia",
+                "onsetDate": "2019-02-17",
+                "clinicalStatus": "resolved"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Chlamydia Test",
+            "testResult": "negative",
+            "date": "2021-03-19"
+        },
+        "follow_up_date": "2025-12-19",
+        "partner_notification_status": "none",
+        "health_department_alert": "alert"
+    },
+    {
+        "id": 24,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "70d183df-421c-4811-96e9-2f73453e2250"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Michael Garcia",
+            "family": "Garcia",
+            "given": [
+                "Michael"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "suffix": [],
+            "period": "2022-04-28"
+        },
+        "gender": "male",
+        "birthDate": "1985-04-25",
+        "address": {
+            "line": [
+                "908 Main St"
+            ],
+            "city": "Phoenix",
+            "state": "IL",
+            "postalCode": "92773",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-261-297-8097",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Chlamydia",
+                "onsetDate": "2022-02-25",
+                "clinicalStatus": "recurrence"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Syphilis Test",
+            "testResult": "negative",
+            "date": "2023-02-05"
+        },
+        "follow_up_date": "2024-01-09",
+        "partner_notification_status": "pending",
+        "health_department_alert": "alert"
+    },
+    {
+        "id": 25,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "b627c380-95e9-4502-8fa0-9d9fd5573036"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "John Brown",
+            "family": "Brown",
+            "given": [
+                "John"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "suffix": [],
+            "period": "2023-02-19"
+        },
+        "gender": "female",
+        "birthDate": "1989-07-11",
+        "address": {
+            "line": [
+                "782 Main St"
+            ],
+            "city": "New York",
+            "state": "NY",
+            "postalCode": "29001",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-322-304-1892",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "HIV",
+                "onsetDate": "2020-07-02",
+                "clinicalStatus": "resolved"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Chlamydia Test",
+            "testResult": "negative",
+            "date": "2020-06-21"
+        },
+        "follow_up_date": "2025-04-27",
+        "partner_notification_status": "none",
+        "health_department_alert": "no_alert"
+    },
+    {
+        "id": 26,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "d4729556-fd82-486f-aa5e-77828ea0ab23"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "David Brown",
+            "family": "Brown",
+            "given": [
+                "David"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "suffix": [],
+            "period": "2023-09-16"
+        },
+        "gender": "unknown",
+        "birthDate": "1959-12-14",
+        "address": {
+            "line": [
+                "527 Main St"
+            ],
+            "city": "Phoenix",
+            "state": "TX",
+            "postalCode": "90056",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-447-232-9865",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Chlamydia",
+                "onsetDate": "2024-10-21",
+                "clinicalStatus": "recurrence"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Chlamydia Test",
+            "testResult": "positive",
+            "date": "2020-04-10"
+        },
+        "follow_up_date": "2024-06-28",
+        "partner_notification_status": "none",
+        "health_department_alert": "alert"
+    },
+    {
+        "id": 27,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "39a61473-20e0-4329-ba3c-977e7395137d"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Jane Williams",
+            "family": "Williams",
+            "given": [
+                "Jane"
+            ],
+            "prefix": [
+                "Ms."
+            ],
+            "suffix": [],
+            "period": "2021-09-25"
+        },
+        "gender": "male",
+        "birthDate": "1985-03-25",
+        "address": {
+            "line": [
+                "437 Main St"
+            ],
+            "city": "Phoenix",
+            "state": "AZ",
+            "postalCode": "49663",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-211-724-4488",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Syphilis",
+                "onsetDate": "2024-08-13",
+                "clinicalStatus": "recurrence"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Syphilis Test",
+            "testResult": "inconclusive",
+            "date": "2024-07-19"
+        },
+        "follow_up_date": "2025-10-27",
+        "partner_notification_status": "pending",
+        "health_department_alert": "alert"
+    },
+    {
+        "id": 28,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "565cb1c6-448e-4387-93c6-224a823ea5d5"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Robert Johnson",
+            "family": "Johnson",
+            "given": [
+                "Robert"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "suffix": [],
+            "period": "2024-01-26"
+        },
+        "gender": "unknown",
+        "birthDate": "1969-02-13",
+        "address": {
+            "line": [
+                "327 Main St"
+            ],
+            "city": "Los Angeles",
+            "state": "NY",
+            "postalCode": "18174",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-588-274-9706",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Syphilis",
+                "onsetDate": "2023-09-13",
+                "clinicalStatus": "resolved"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Chlamydia Test",
+            "testResult": "negative",
+            "date": "2021-04-13"
+        },
+        "follow_up_date": "2025-01-06",
+        "partner_notification_status": "none",
+        "health_department_alert": "no_alert"
+    },
+    {
+        "id": 29,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "26e6b71f-e4ae-4957-8cc9-b9479222dac1"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Emily Garcia",
+            "family": "Garcia",
+            "given": [
+                "Emily"
+            ],
+            "prefix": [
+                "Ms."
+            ],
+            "suffix": [],
+            "period": "2023-03-10"
+        },
+        "gender": "male",
+        "birthDate": "1965-06-12",
+        "address": {
+            "line": [
+                "356 Main St"
+            ],
+            "city": "Chicago",
+            "state": "CA",
+            "postalCode": "36561",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-922-368-9811",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Gonorrhea",
+                "onsetDate": "2022-01-29",
+                "clinicalStatus": "recurrence"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Gonorrhea Test",
+            "testResult": "positive",
+            "date": "2024-02-15"
+        },
+        "follow_up_date": "2025-02-10",
+        "partner_notification_status": "notified",
+        "health_department_alert": "no_alert"
+    },
+    {
+        "id": 30,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "68068ce9-c1ac-43c1-ad16-80f32da04c04"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Sarah Doe",
+            "family": "Doe",
+            "given": [
+                "Sarah"
+            ],
+            "prefix": [
+                "Ms."
+            ],
+            "suffix": [],
+            "period": "2021-05-07"
+        },
+        "gender": "female",
+        "birthDate": "1988-02-11",
+        "address": {
+            "line": [
+                "770 Main St"
+            ],
+            "city": "Houston",
+            "state": "AZ",
+            "postalCode": "72313",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-878-157-2152",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Syphilis",
+                "onsetDate": "2023-04-25",
+                "clinicalStatus": "active"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Gonorrhea Test",
+            "testResult": "negative",
+            "date": "2020-05-11"
+        },
+        "follow_up_date": "2025-09-17",
+        "partner_notification_status": "none",
+        "health_department_alert": "no_alert"
+    },
+    {
+        "id": 31,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "b928963a-f809-4fdc-bb5f-5d7be3b0e3bd"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "John Smith",
+            "family": "Smith",
+            "given": [
+                "John"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "suffix": [],
+            "period": "2023-07-30"
+        },
+        "gender": "male",
+        "birthDate": "1967-06-20",
+        "address": {
+            "line": [
+                "936 Main St"
+            ],
+            "city": "Chicago",
+            "state": "NY",
+            "postalCode": "80933",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-714-496-2923",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Gonorrhea",
+                "onsetDate": "2021-04-17",
+                "clinicalStatus": "recurrence"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Chlamydia Test",
+            "testResult": "negative",
+            "date": "2022-09-13"
+        },
+        "follow_up_date": "2024-06-06",
+        "partner_notification_status": "pending",
+        "health_department_alert": "alert"
+    },
+    {
+        "id": 32,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "8853368d-ce15-40c5-b348-b627efdd5ac1"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "David Jones",
+            "family": "Jones",
+            "given": [
+                "David"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "suffix": [],
+            "period": "2020-03-08"
+        },
+        "gender": "other",
+        "birthDate": "1973-04-21",
+        "address": {
+            "line": [
+                "567 Main St"
+            ],
+            "city": "New York",
+            "state": "TX",
+            "postalCode": "71508",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-318-598-4519",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Gonorrhea",
+                "onsetDate": "2023-10-02",
+                "clinicalStatus": "active"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Gonorrhea Test",
+            "testResult": "inconclusive",
+            "date": "2022-03-20"
+        },
+        "follow_up_date": "2024-04-28",
+        "partner_notification_status": "none",
+        "health_department_alert": "no_alert"
+    },
+    {
+        "id": 33,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "998aca6c-ea9f-4cfb-a8c6-790442ebd317"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Sarah Williams",
+            "family": "Williams",
+            "given": [
+                "Sarah"
+            ],
+            "prefix": [
+                "Ms."
+            ],
+            "suffix": [],
+            "period": "2023-09-12"
+        },
+        "gender": "unknown",
+        "birthDate": "1989-09-11",
+        "address": {
+            "line": [
+                "522 Main St"
+            ],
+            "city": "Los Angeles",
+            "state": "AZ",
+            "postalCode": "39495",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-334-464-3019",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "HIV",
+                "onsetDate": "2019-09-03",
+                "clinicalStatus": "resolved"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Syphilis Test",
+            "testResult": "negative",
+            "date": "2024-10-31"
+        },
+        "follow_up_date": "2024-12-11",
+        "partner_notification_status": "pending",
+        "health_department_alert": "alert"
+    },
+    {
+        "id": 34,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "cd119815-f206-4763-85c6-e6b90f75c1cd"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Sarah Doe",
+            "family": "Doe",
+            "given": [
+                "Sarah"
+            ],
+            "prefix": [
+                "Ms."
+            ],
+            "suffix": [],
+            "period": "2022-05-28"
+        },
+        "gender": "female",
+        "birthDate": "1970-05-06",
+        "address": {
+            "line": [
+                "753 Main St"
+            ],
+            "city": "Chicago",
+            "state": "NY",
+            "postalCode": "12395",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-306-624-3511",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Syphilis",
+                "onsetDate": "2024-07-24",
+                "clinicalStatus": "recurrence"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Chlamydia Test",
+            "testResult": "negative",
+            "date": "2020-01-13"
+        },
+        "follow_up_date": "2024-06-14",
+        "partner_notification_status": "pending",
+        "health_department_alert": "alert"
+    },
+    {
+        "id": 35,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "e5b4746d-5ef1-4ecc-a871-2958756c3542"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Sarah Garcia",
+            "family": "Garcia",
+            "given": [
+                "Sarah"
+            ],
+            "prefix": [
+                "Ms."
+            ],
+            "suffix": [],
+            "period": "2024-08-09"
+        },
+        "gender": "female",
+        "birthDate": "1995-06-22",
+        "address": {
+            "line": [
+                "293 Main St"
+            ],
+            "city": "Houston",
+            "state": "TX",
+            "postalCode": "41507",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-842-233-6996",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Chlamydia",
+                "onsetDate": "2023-09-30",
+                "clinicalStatus": "active"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "HPV Test",
+            "testResult": "negative",
+            "date": "2020-10-12"
+        },
+        "follow_up_date": "2024-11-19",
+        "partner_notification_status": "none",
+        "health_department_alert": "no_alert"
+    },
+    {
+        "id": 36,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "5e629282-c62a-4938-8448-0ae28b4c5537"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "John Doe",
+            "family": "Doe",
+            "given": [
+                "John"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "suffix": [],
+            "period": "2024-06-24"
+        },
+        "gender": "unknown",
+        "birthDate": "1975-11-15",
+        "address": {
+            "line": [
+                "806 Main St"
+            ],
+            "city": "New York",
+            "state": "TX",
+            "postalCode": "24061",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-710-336-8365",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Gonorrhea",
+                "onsetDate": "2024-05-05",
+                "clinicalStatus": "active"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Syphilis Test",
+            "testResult": "positive",
+            "date": "2021-12-05"
+        },
+        "follow_up_date": "2025-10-01",
+        "partner_notification_status": "notified",
+        "health_department_alert": "no_alert"
+    },
+    {
+        "id": 37,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "f12fe9a0-56c1-4091-95de-4bcd7d93a2f4"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Michael Johnson",
+            "family": "Johnson",
+            "given": [
+                "Michael"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "suffix": [],
+            "period": "2024-08-20"
+        },
+        "gender": "female",
+        "birthDate": "1994-10-24",
+        "address": {
+            "line": [
+                "629 Main St"
+            ],
+            "city": "Phoenix",
+            "state": "CA",
+            "postalCode": "51180",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-283-488-2998",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Gonorrhea",
+                "onsetDate": "2019-09-30",
+                "clinicalStatus": "active"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Gonorrhea Test",
+            "testResult": "positive",
+            "date": "2020-03-27"
+        },
+        "follow_up_date": "2025-02-24",
+        "partner_notification_status": "notified",
+        "health_department_alert": "alert"
+    },
+    {
+        "id": 38,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "8c4b2069-6178-4925-88bc-da0684089398"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Michael Miller",
+            "family": "Miller",
+            "given": [
+                "Michael"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "suffix": [],
+            "period": "2022-02-04"
+        },
+        "gender": "female",
+        "birthDate": "1997-07-29",
+        "address": {
+            "line": [
+                "385 Main St"
+            ],
+            "city": "Los Angeles",
+            "state": "TX",
+            "postalCode": "37476",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-790-505-8591",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "HPV",
+                "onsetDate": "2023-12-09",
+                "clinicalStatus": "active"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "HIV Test",
+            "testResult": "inconclusive",
+            "date": "2021-11-04"
+        },
+        "follow_up_date": "2024-03-12",
+        "partner_notification_status": "pending",
+        "health_department_alert": "no_alert"
+    },
+    {
+        "id": 39,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "6770b35a-b78a-4ea1-8ff1-73333d4903c1"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "John Johnson",
+            "family": "Johnson",
+            "given": [
+                "John"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "suffix": [],
+            "period": "2024-03-17"
+        },
+        "gender": "other",
+        "birthDate": "1967-10-04",
+        "address": {
+            "line": [
+                "496 Main St"
+            ],
+            "city": "Los Angeles",
+            "state": "TX",
+            "postalCode": "84881",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-603-726-8745",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "HPV",
+                "onsetDate": "2022-03-21",
+                "clinicalStatus": "recurrence"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Syphilis Test",
+            "testResult": "inconclusive",
+            "date": "2023-08-24"
+        },
+        "follow_up_date": "2024-11-21",
+        "partner_notification_status": "pending",
+        "health_department_alert": "no_alert"
+    },
+    {
+        "id": 40,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "9f4822c1-03e9-46a8-8fcc-ca53176771ee"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "John Miller",
+            "family": "Miller",
+            "given": [
+                "John"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "suffix": [],
+            "period": "2023-09-07"
+        },
+        "gender": "other",
+        "birthDate": "1987-02-26",
+        "address": {
+            "line": [
+                "291 Main St"
+            ],
+            "city": "Houston",
+            "state": "IL",
+            "postalCode": "78041",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-799-132-9317",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "HIV",
+                "onsetDate": "2020-09-23",
+                "clinicalStatus": "active"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "HIV Test",
+            "testResult": "negative",
+            "date": "2023-01-27"
+        },
+        "follow_up_date": "2024-08-23",
+        "partner_notification_status": "pending",
+        "health_department_alert": "no_alert"
+    },
+    {
+        "id": 41,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "89eb3b6e-b62d-45d0-8289-0cf1af1275ed"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "David Jones",
+            "family": "Jones",
+            "given": [
+                "David"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "suffix": [],
+            "period": "2020-03-06"
+        },
+        "gender": "male",
+        "birthDate": "1979-05-10",
+        "address": {
+            "line": [
+                "466 Main St"
+            ],
+            "city": "Los Angeles",
+            "state": "NY",
+            "postalCode": "42515",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-250-518-2772",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "HIV",
+                "onsetDate": "2020-07-19",
+                "clinicalStatus": "recurrence"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "HIV Test",
+            "testResult": "inconclusive",
+            "date": "2020-06-16"
+        },
+        "follow_up_date": "2024-02-18",
+        "partner_notification_status": "pending",
+        "health_department_alert": "no_alert"
+    },
+    {
+        "id": 42,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "74409256-5cf9-4df4-a817-7d10be5c36df"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "David Doe",
+            "family": "Doe",
+            "given": [
+                "David"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "suffix": [],
+            "period": "2021-11-16"
+        },
+        "gender": "other",
+        "birthDate": "1959-01-31",
+        "address": {
+            "line": [
+                "626 Main St"
+            ],
+            "city": "Los Angeles",
+            "state": "IL",
+            "postalCode": "79863",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-645-962-3412",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "HIV",
+                "onsetDate": "2024-09-21",
+                "clinicalStatus": "recurrence"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Syphilis Test",
+            "testResult": "positive",
+            "date": "2024-07-05"
+        },
+        "follow_up_date": "2025-02-04",
+        "partner_notification_status": "pending",
+        "health_department_alert": "alert"
+    },
+    {
+        "id": 43,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "ea71dc6e-5f8e-4f08-998e-bc3802e274ac"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Jane Doe",
+            "family": "Doe",
+            "given": [
+                "Jane"
+            ],
+            "prefix": [
+                "Ms."
+            ],
+            "suffix": [],
+            "period": "2020-01-29"
+        },
+        "gender": "male",
+        "birthDate": "1997-08-17",
+        "address": {
+            "line": [
+                "389 Main St"
+            ],
+            "city": "Houston",
+            "state": "NY",
+            "postalCode": "62687",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-688-949-5685",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "HIV",
+                "onsetDate": "2024-01-10",
+                "clinicalStatus": "active"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "HPV Test",
+            "testResult": "negative",
+            "date": "2021-10-02"
+        },
+        "follow_up_date": "2025-01-31",
+        "partner_notification_status": "none",
+        "health_department_alert": "alert"
+    },
+    {
+        "id": 44,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "fc0d079c-b0ed-4e9b-8ba9-25a61376777e"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Michael Brown",
+            "family": "Brown",
+            "given": [
+                "Michael"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "suffix": [],
+            "period": "2022-09-07"
+        },
+        "gender": "other",
+        "birthDate": "1956-12-22",
+        "address": {
+            "line": [
+                "283 Main St"
+            ],
+            "city": "Chicago",
+            "state": "CA",
+            "postalCode": "71802",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-429-777-7864",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Syphilis",
+                "onsetDate": "2021-12-07",
+                "clinicalStatus": "recurrence"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "HPV Test",
+            "testResult": "negative",
+            "date": "2023-08-04"
+        },
+        "follow_up_date": "2025-03-29",
+        "partner_notification_status": "pending",
+        "health_department_alert": "alert"
+    },
+    {
+        "id": 45,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "37cd6727-5328-4191-a526-2db40595a6f9"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "David Williams",
+            "family": "Williams",
+            "given": [
+                "David"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "suffix": [],
+            "period": "2021-02-26"
+        },
+        "gender": "other",
+        "birthDate": "1952-05-30",
+        "address": {
+            "line": [
+                "868 Main St"
+            ],
+            "city": "Chicago",
+            "state": "TX",
+            "postalCode": "10336",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-742-411-3527",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "HPV",
+                "onsetDate": "2022-09-18",
+                "clinicalStatus": "resolved"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Syphilis Test",
+            "testResult": "negative",
+            "date": "2023-08-25"
+        },
+        "follow_up_date": "2025-12-03",
+        "partner_notification_status": "none",
+        "health_department_alert": "alert"
+    },
+    {
+        "id": 46,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "1c9ca78c-a4a8-43ad-a663-d3b72e5aff51"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "David Williams",
+            "family": "Williams",
+            "given": [
+                "David"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "suffix": [],
+            "period": "2023-05-24"
+        },
+        "gender": "other",
+        "birthDate": "2001-11-27",
+        "address": {
+            "line": [
+                "715 Main St"
+            ],
+            "city": "Chicago",
+            "state": "TX",
+            "postalCode": "85113",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-810-475-6267",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "HIV",
+                "onsetDate": "2024-10-17",
+                "clinicalStatus": "recurrence"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Gonorrhea Test",
+            "testResult": "negative",
+            "date": "2020-05-13"
+        },
+        "follow_up_date": "2024-02-10",
+        "partner_notification_status": "none",
+        "health_department_alert": "no_alert"
+    },
+    {
+        "id": 47,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "81aeed42-026e-4a54-94b2-b3805049168b"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Robert Smith",
+            "family": "Smith",
+            "given": [
+                "Robert"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "suffix": [],
+            "period": "2022-05-22"
+        },
+        "gender": "female",
+        "birthDate": "1975-08-13",
+        "address": {
+            "line": [
+                "989 Main St"
+            ],
+            "city": "New York",
+            "state": "CA",
+            "postalCode": "35960",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-782-351-7157",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Chlamydia",
+                "onsetDate": "2024-09-15",
+                "clinicalStatus": "recurrence"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "HPV Test",
+            "testResult": "positive",
+            "date": "2021-11-04"
+        },
+        "follow_up_date": "2025-10-21",
+        "partner_notification_status": "pending",
+        "health_department_alert": "alert"
+    },
+    {
+        "id": 48,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "07f10451-aa50-4f44-a405-ca66d396d9c3"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "John Smith",
+            "family": "Smith",
+            "given": [
+                "John"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "suffix": [],
+            "period": "2021-03-14"
+        },
+        "gender": "female",
+        "birthDate": "1964-12-04",
+        "address": {
+            "line": [
+                "931 Main St"
+            ],
+            "city": "New York",
+            "state": "TX",
+            "postalCode": "90129",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-495-302-3151",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Syphilis",
+                "onsetDate": "2022-06-13",
+                "clinicalStatus": "active"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Gonorrhea Test",
+            "testResult": "inconclusive",
+            "date": "2022-02-07"
+        },
+        "follow_up_date": "2024-01-29",
+        "partner_notification_status": "none",
+        "health_department_alert": "alert"
+    },
+    {
+        "id": 49,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "44b94ae7-101d-4172-bee9-992fc138fdef"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "Sarah Williams",
+            "family": "Williams",
+            "given": [
+                "Sarah"
+            ],
+            "prefix": [
+                "Ms."
+            ],
+            "suffix": [],
+            "period": "2023-08-29"
+        },
+        "gender": "unknown",
+        "birthDate": "1977-04-10",
+        "address": {
+            "line": [
+                "218 Main St"
+            ],
+            "city": "Houston",
+            "state": "CA",
+            "postalCode": "61424",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-254-395-7209",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Gonorrhea",
+                "onsetDate": "2020-07-02",
+                "clinicalStatus": "recurrence"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "HIV Test",
+            "testResult": "inconclusive",
+            "date": "2020-11-05"
+        },
+        "follow_up_date": "2025-05-15",
+        "partner_notification_status": "none",
+        "health_department_alert": "no_alert"
+    },
+    {
+        "id": 50,
+        "identifier": [
+            {
+                "system": "http://hospital.smarthealth.com",
+                "value": "d2dd42d6-5272-4f56-9464-2f4ea5314a40"
+            }
+        ],
+        "active": true,
+        "name": {
+            "use": "official",
+            "text": "David Johnson",
+            "family": "Johnson",
+            "given": [
+                "David"
+            ],
+            "prefix": [
+                "Mr."
+            ],
+            "suffix": [],
+            "period": "2020-08-26"
+        },
+        "gender": "unknown",
+        "birthDate": "1980-09-03",
+        "address": {
+            "line": [
+                "744 Main St"
+            ],
+            "city": "New York",
+            "state": "IL",
+            "postalCode": "14867",
+            "country": "USA"
+        },
+        "telecom": {
+            "system": "phone",
+            "value": "+1-689-610-8856",
+            "use": "home"
+        },
+        "managingOrganization": "Sample Healthcare Org",
+        "condition": [
+            {
+                "code": "Gonorrhea",
+                "onsetDate": "2023-03-05",
+                "clinicalStatus": "active"
+            }
+        ],
+        "diagnosticReport": {
+            "testPerformed": "Chlamydia Test",
+            "testResult": "positive",
+            "date": "2023-10-19"
+        },
+        "follow_up_date": "2025-07-26",
+        "partner_notification_status": "none",
+        "health_department_alert": "no_alert"
+    }
+]

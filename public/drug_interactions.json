@@ -1,0 +1,45 @@
+[
+    {
+      "drug1": "Aspirin",
+      "drug2": "Warfarin",
+      "severity": "Severe",
+      "description": "Taking Aspirin with Warfarin increases the risk of bleeding due to anticoagulation effects."
+    },
+    {
+      "drug1": "Ibuprofen",
+      "drug2": "Lisinopril",
+      "severity": "Moderate",
+      "description": "Ibuprofen can reduce the effectiveness of Lisinopril in lowering blood pressure."
+    },
+    {
+      "drug1": "Paracetamol",
+      "drug2": "Codeine",
+      "severity": "Mild",
+      "description": "Paracetamol and Codeine may cause mild dizziness when taken together."
+    },
+    {
+      "drug1": "Simvastatin",
+      "drug2": "Grapefruit Juice",
+      "severity": "Severe",
+      "description": "Grapefruit juice increases the levels of Simvastatin, leading to muscle damage risk."
+    },
+    {
+      "drug1": "Metformin",
+      "drug2": "Alcohol",
+      "severity": "Moderate",
+      "description": "Alcohol can increase the risk of lactic acidosis when taken with Metformin."
+    },
+    {
+      "drug1": "Omeprazole",
+      "drug2": "Clopidogrel",
+      "severity": "Moderate",
+      "description": "Omeprazole may reduce the effectiveness of Clopidogrel, increasing clotting risk."
+    },
+    {
+      "drug1": "Levothyroxine",
+      "drug2": "Calcium Supplements",
+      "severity": "Mild",
+      "description": "Calcium supplements can reduce Levothyroxine absorption, leading to lower effectiveness."
+    }
+  ]
+  

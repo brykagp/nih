@@ -1,0 +1,42 @@
+[
+  {
+    "patientName": "John Doe",
+    "insuranceProvider": "Blue Cross",
+    "policyNumber": "BC123456",
+    "billAmount": 2500.50,
+    "status": "Paid",
+    "dateOfBilling": "2023-06-15"
+  },
+  {
+    "patientName": "Jane Smith",
+    "insuranceProvider": "United Healthcare",
+    "policyNumber": "UH987654",
+    "billAmount": 1850.75,
+    "status": "Pending",
+    "dateOfBilling": "2023-07-20"
+  },
+  {
+    "patientName": "Alice Johnson",
+    "insuranceProvider": "Aetna",
+    "policyNumber": "AT654321",
+    "billAmount": 3200.00,
+    "status": "Overdue",
+    "dateOfBilling": "2023-05-10"
+  },
+  {
+    "patientName": "Bob Williams",
+    "insuranceProvider": "Cigna",
+    "policyNumber": "CG789123",
+    "billAmount": 2750.30,
+    "status": "Paid",
+    "dateOfBilling": "2023-08-05"
+  },
+  {
+    "patientName": "Emily Davis",
+    "insuranceProvider": "Kaiser Permanente",
+    "policyNumber": "KP159753",
+    "billAmount": 1999.99,
+    "status": "Pending",
+    "dateOfBilling": "2023-09-12"
+  }
+]
