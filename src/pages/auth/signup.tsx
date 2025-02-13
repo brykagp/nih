@@ -5,7 +5,7 @@ import Link from "next/link";
 const SignUp = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [role, setRole] = useState("pharmacies"); // Default role
+  const [role, setRole] = useState("pharmacy"); // Default role
   const router = useRouter();
 
   const handleSignUp = async (e: React.FormEvent) => {
