@@ -50,7 +50,7 @@ const Prescriptions: React.FC = () => {
     : prescriptions;
 
   return (
-    <div className="p-6 bg-gray-900 border border-gray-700 rounded-lg shadow-lg text-white max-w-4xl mx-auto">
+    <div className="p-6 bg-gray-900 border border-gray-700 rounded-lg shadow-lg text-white max-w-6xl mx-auto w-full">
       <h2 className="text-2xl font-bold mb-4">Prescriptions & Medications</h2>
 
       {/* Search Filter */}
@@ -65,7 +65,7 @@ const Prescriptions: React.FC = () => {
       {loading ? (
         <p>Loading prescriptions...</p>
       ) : (
-        <div className="overflow-y-auto max-h-[500px] border border-gray-700 rounded-lg">
+        <div className="overflow-y-auto max-h-[500px]  border border-gray-700 rounded-lg">
           <table className="w-full border-collapse">
             <thead className="bg-gray-800 sticky top-0">
               <tr>

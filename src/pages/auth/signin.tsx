@@ -67,7 +67,7 @@ const SignIn = () => {
           Don&apos;t have an account?{" "}
          
 <Link href="/auth/signup" className="text-blue-600">
-  Create one
+  Sign Up
 </Link>
         </p>
       </div>

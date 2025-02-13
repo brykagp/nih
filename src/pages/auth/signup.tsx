@@ -44,12 +44,13 @@ const SignUp = () => {
             onChange={(e) => setRole(e.target.value)}
             className="w-full p-2 border rounded mt-2"
           >
-            <option value="cdc">CDC</option>
+           
             <option value="pharmacy">Pharmacy</option>
-            <option value="labs">Labs</option>
-            <option value="healthcare">Healthcare</option>
+            <option value="healthcare">Healt Department</option>
+             <option value="cdc">CDC</option>
             <option value="hospital">Hospital</option>
             <option value="patient">Patient</option>
+                <option value="labs">Labs</option>
 
           </select>
           <button

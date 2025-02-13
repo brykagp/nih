@@ -8,7 +8,7 @@
     "dateOfBilling": "2023-06-15"
   },
   {
-    "patientName": "Jane Smith",
+    "patientName": "Emily Brown",
     "insuranceProvider": "United Healthcare",
     "policyNumber": "UH987654",
     "billAmount": 1850.75,

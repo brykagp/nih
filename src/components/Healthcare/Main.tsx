@@ -6,7 +6,6 @@ import {
   FiUser,
   FiFileText,
   FiMessageSquare,
-  FiDatabase,
   FiBarChart2,
 } from "react-icons/fi";
 
@@ -44,7 +43,7 @@ export default function Main() {
     <div className="relative flex h-screen w-full">
       {/* Sidebar */}
       <div className="w-80 min-w-[320px] bg-gray-900 p-5 text-white">
-        <h2 className="mb-4 text-xl font-bold">Healthcare Department</h2>
+        <h2 className="mb-4 text-xl font-bold">Health Department</h2>
         <div className="space-y-4">
           <button
             onClick={() => setActiveTab("epidemiology")}
@@ -119,7 +118,7 @@ export default function Main() {
       <div className="flex-1 overflow-auto p-5">
         <nav className="flex justify-between bg-gray-100 p-4">
           <h1 className="text-lg font-semibold">
-            Welcome, Healthcare Professional
+            Welcome, Tricia
           </h1>
           <button
             onClick={handleLogout}

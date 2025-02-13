@@ -48,7 +48,7 @@ const InsuranceBilling: React.FC = () => {
     : records;
 
   return (
-    <div className="p-6 bg-gray-900 border border-gray-700 rounded-lg shadow-lg text-white max-w-4xl mx-auto">
+    <div className="p-6 bg-gray-900 border border-gray-700 rounded-lg shadow-lg text-white max-w-6xl mx-auto w-full">
       <h2 className="text-2xl font-bold mb-4">Past Insurance & Billing Data</h2>
 
       {/* Search Filter */}

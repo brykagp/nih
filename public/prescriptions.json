@@ -16,7 +16,7 @@
       "datePrescribed": "2024-03-05"
     },
     {
-      "patientName": "Michael Johnson",
+      "patientName": "Emily Brown",
       "medication": "Omeprazole",
       "dosage": "10mg",
       "prescribingDoctor": "Dr. Michael Brown",
@@ -32,7 +32,7 @@
       "datePrescribed": "2025-02-11"
     },
     {
-      "patientName": "Charles Wilson",
+      "patientName": "John Doe",
       "medication": "Atorvastatin",
       "dosage": "200mg",
       "prescribingDoctor": "Dr. David Anderson",
