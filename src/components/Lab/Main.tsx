@@ -8,6 +8,10 @@ import {
   FiDatabase,
 } from "react-icons/fi";
 import { useRouter } from "next/router";
+import PatientData from "./PatientDataLab";
+import LabResult from "./LabResult";
+import EpidemiologicalData from "./EpidemiologicalData";
+import PhotoUploadLab from "./PhotoUploadLab";
 
 export default function Main() {
   const [activeTab, setActiveTab] = useState<
@@ -37,14 +41,14 @@ export default function Main() {
             <FiUser /> View Patient Identifiable Data (PID)
           </button>
 
-          <button
+          {/* <button
             onClick={() => setActiveTab("pastLabResults")}
             className={`flex w-full items-center gap-2 p-3 text-left ${
               activeTab === "pastLabResults" ? "bg-green-700" : "hover:bg-green-800"
             }`}
           >
             <FiDatabase /> View Past Lab Results
-          </button>
+          </button> */}
 
           <button
             onClick={() => setActiveTab("epidemiology")}
@@ -61,7 +65,7 @@ export default function Main() {
               activeTab === "publicHealthAlerts" ? "bg-green-700" : "hover:bg-green-800"
             }`}
           >
-            <FiBell /> Public Health Alerts
+            <FiBell /> Upload Test Kit Photo
           </button>
         </div>
       </div>
@@ -80,33 +84,43 @@ export default function Main() {
 
         {/* Dynamic Content Based on Active Tab */}
         <div className="mt-6 border p-4">
-          {activeTab === "patientData" && (
+
+        {activeTab === "patientData" && <PatientData/>}
+        {activeTab === "pastLabResults" && <LabResult/>}
+        {activeTab === "epidemiology" && <EpidemiologicalData/>}
+        {activeTab === "publicHealthAlerts" && <PhotoUploadLab/>}
+        
+        
+        
+          {/* {activeTab === "patientData" && (
+
+          
             <div>
               <h2 className="text-lg font-semibold">Patient Identifiable Data (PID)</h2>
               <p>View details of patients with authorized access.</p>
             </div>
-          )}
+          )} */}
 
-          {activeTab === "pastLabResults" && (
+          {/* {activeTab === "pastLabResults" && (
             <div>
               <h2 className="text-lg font-semibold">Past Lab Results</h2>
               <p>Access historical lab test results for patients.</p>
             </div>
-          )}
-
+          )} */}
+{/* 
           {activeTab === "epidemiology" && (
             <div>
               <h2 className="text-lg font-semibold">Epidemiological Data</h2>
               <p>View nationwide disease trends and statistics.</p>
             </div>
-          )}
-
+          )} */}
+{/* 
           {activeTab === "publicHealthAlerts" && (
             <div>
               <h2 className="text-lg font-semibold">Public Health Alerts</h2>
               <p>Get latest alerts and updates from health authorities.</p>
             </div>
-          )}
+          )} */}
         </div>
       </div>
     </div>
