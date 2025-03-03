@@ -1,3 +1,20 @@
+// import React from 'react'
+
+// const Prescriptions = () => {
+//   return (
+//     <div>
+//       <h1>prescriptions</h1>
+//     </div>
+//   )
+// }
+
+// export default Prescriptions
+
+
+
+
+
+
 
 import React, { useState, useEffect } from "react";
 
@@ -105,3 +122,4 @@ const Prescriptions: React.FC = () => {
 };
 
 export default Prescriptions;
+

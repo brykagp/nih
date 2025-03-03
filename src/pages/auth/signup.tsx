@@ -15,20 +15,20 @@ const SignUp = () => {
     localStorage.setItem("user", JSON.stringify({ email, role }));
 
     alert(`Account created for ${role}`);
-   await router.push("/auth/signin"); // Redirect to login page
+    await router.push("/auth/signin"); // Redirect to login page
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <div className="bg-white p-6 rounded-lg shadow-md w-96">
-        <h2 className="text-2xl font-semibold text-center">Create Account</h2>
+    <div className="flex min-h-screen items-center justify-center bg-gray-100">
+      <div className="w-96 rounded-lg bg-white p-6 shadow-md">
+        <h2 className="text-center text-2xl font-semibold">Create Account</h2>
         <form onSubmit={handleSignUp} className="mt-4">
           <input
             type="email"
             placeholder="Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="w-full p-2 border rounded mt-2"
+            className="mt-2 w-full rounded border p-2"
             required
           />
           <input
@@ -36,31 +36,30 @@ const SignUp = () => {
             placeholder="Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            className="w-full p-2 border rounded mt-2"
+            className="mt-2 w-full rounded border p-2"
             required
           />
           <select
             value={role}
             onChange={(e) => setRole(e.target.value)}
-            className="w-full p-2 border rounded mt-2"
+            className="mt-2 w-full rounded border p-2"
           >
-           
             <option value="pharmacy">Pharmacy</option>
             <option value="healthcare">Health Department</option>
-             <option value="cdc">CDC</option>
+            <option value="cdc">CDC</option>
+            <option value="labs">Labs</option>
             <option value="hospital">Hospital</option>
             <option value="patient">Patient</option>
-                <option value="labs">Labs</option>
-
+           
           </select>
           <button
             type="submit"
-            className="w-full bg-green-500 text-white p-2 rounded mt-4"
+            className="mt-4 w-full rounded bg-green-500 p-2 text-white"
           >
             Sign Up
           </button>
         </form>
-        <p className="text-center mt-2">
+        <p className="mt-2 text-center">
           Already have an account?{" "}
           <Link href="/auth/signin" className="text-blue-600">
             Sign In

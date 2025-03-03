@@ -13,6 +13,14 @@ import {
 import { MdMedicalServices } from "react-icons/md";
 
 import { useRouter } from "next/router";
+import PatientRecords from "./PatientRecords";
+import PostLabResults from "./PostLabResults";
+import Prescriptions from "./Prescriptions";
+import InsuranceBilling from "./InsuranceBilling";
+import DrugAlerts from "./DrugAlerts";
+import Epidmiology from "./Epidmiology";
+import Announcements from "./Announcements";
+import TreatmentPlans from "./TreatmentPlans";
 
 export default function HospitalDashboard() {
   const [activeTab, setActiveTab] = useState<
@@ -95,14 +103,14 @@ export default function HospitalDashboard() {
             <FiClipboard /> View Epidemiological Data
           </button>
 
-          <button
+          {/* <button
             onClick={() => setActiveTab("publicHealthAlerts")}
             className={`flex w-full items-center gap-2 p-3 text-left ${
               activeTab === "publicHealthAlerts" ? "bg-blue-700" : "hover:bg-blue-800"
             }`}
           >
             <FiBell /> View Public Health Alerts
-          </button>
+          </button> */}
 
           <button
             onClick={() => setActiveTab("announcements")}
@@ -138,47 +146,26 @@ export default function HospitalDashboard() {
 
         {/* Dynamic Content Based on Active Tab */}
         <div className="mt-6 border p-4">
-          {activeTab === "patientRecords" && (
-            <div>
-              <h2 className="text-lg font-semibold">Patient Identifiable Data (PID)</h2>
-              <p>View details of patients with authorized access.</p>
-            </div>
-          )}
 
-          {activeTab === "pastLabResults" && (
-            <div>
-              <h2 className="text-lg font-semibold">Past Lab Results</h2>
-              <p>Access historical lab test results for patients.</p>
-            </div>
-          )}
+        {activeTab === "patientRecords" && <PatientRecords />}
+        {activeTab === "pastLabResults" && <PostLabResults/>}
 
-          {activeTab === "prescriptions" && (
-            <div>
-              <h2 className="text-lg font-semibold">Prescriptions & Medications</h2>
-              <p>View patient prescriptions, dosage, frequency, and duration.</p>
-            </div>
-          )}
+        {activeTab === "prescriptions" && <Prescriptions/>}
 
-          {activeTab === "insuranceBilling" && (
-            <div>
-              <h2 className="text-lg font-semibold">Insurance & Billing Data</h2>
-              <p>View billing details, insurance claims, and payments.</p>
-            </div>
-          )}
+        {activeTab === "insuranceBilling" && <InsuranceBilling/>}
 
-          {activeTab === "drugAlerts" && (
-            <div>
-              <h2 className="text-lg font-semibold">Drug Interaction Alerts</h2>
-              <p>Check for possible drug interactions for patients.</p>
-            </div>
-          )}
+        {activeTab === "drugAlerts" && <DrugAlerts/>}
 
-          {activeTab === "epidemiology" && (
-            <div>
-              <h2 className="text-lg font-semibold">Epidemiological Data</h2>
-              <p>View nationwide disease trends and statistics.</p>
-            </div>
-          )}
+        {activeTab === "epidemiology" && <Epidmiology/>}
+        {activeTab === "announcements" && <Announcements/>}
+
+        {activeTab === "treatmentPlans" && <TreatmentPlans/>}
+      
+
+
+
+        
+
 
           {activeTab === "publicHealthAlerts" && (
             <div>
@@ -187,19 +174,8 @@ export default function HospitalDashboard() {
             </div>
           )}
 
-          {activeTab === "announcements" && (
-            <div>
-              <h2 className="text-lg font-semibold">CDC Announcements</h2>
-              <p>Read important CDC announcements.</p>
-            </div>
-          )}
-
-          {activeTab === "treatmentPlans" && (
-            <div>
-              <h2 className="text-lg font-semibold">Diagnosed Conditions & Treatment Plans</h2>
-              <p>View treatment history, past hospitals, and doctor notes.</p>
-            </div>
-          )}
+      
+        
         </div>
       </div>
     </div>

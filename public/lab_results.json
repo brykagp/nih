@@ -1,0 +1,38 @@
+[
+    {
+      "testName": "Blood Glucose Test",
+      "testDate": "2025-02-15",
+      "result": "120 mg/dL",
+      "referenceRange": "70-99 mg/dL",
+      "notes": "Slightly elevated, requires monitoring"
+    },
+    {
+      "testName": "Cholesterol Test",
+      "testDate": "2025-01-10",
+      "result": "240 mg/dL",
+      "referenceRange": "Below 200 mg/dL",
+      "notes": "High cholesterol, consult with cardiologist"
+    },
+    {
+      "testName": "Complete Blood Count (CBC)",
+      "testDate": "2024-12-20",
+      "result": "Normal",
+      "referenceRange": "Within normal range",
+      "notes": "No abnormalities detected"
+    },
+    {
+      "testName": "X-Ray (Chest)",
+      "testDate": "2024-11-10",
+      "result": "No abnormalities found",
+      "referenceRange": "N/A",
+      "notes": "Clear X-ray result"
+    },
+    {
+      "testName": "Liver Function Test",
+      "testDate": "2025-02-05",
+      "result": "Abnormal",
+      "referenceRange": "Within normal limits",
+      "notes": "Elevated liver enzymes, follow-up required"
+    }
+  ]
+  
