@@ -133,7 +133,7 @@ export default function HospitalDashboard() {
       </div>
 
       {/* Main Content */}
-      <div className="flex-1 p-5">
+      <div className="flex-1 p-5 overflow-auto">
         <nav className="flex justify-between bg-gray-100 p-4">
           <h1 className="text-lg font-semibold">Welcome, Hospital Staff</h1>
           <button

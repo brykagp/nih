@@ -71,7 +71,7 @@ export default function Main() {
       </div>
 
       {/* Main Content */}
-      <div className="flex-1 p-5">
+      <div className="flex-1 overflow-auto p-5">
         <nav className="flex justify-between bg-gray-100 p-4">
           <h1 className="text-lg font-semibold">Welcome, Lab Technician</h1>
           <button
