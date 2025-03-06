@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import {
   FiLogOut,
@@ -9,35 +8,17 @@ import {
   FiMessageSquare,
   FiBarChart2,
 } from "react-icons/fi";
-import {
-  LineChart,
-  Line,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  Legend,
-  ResponsiveContainer,
-} from "recharts";
+
 import { useRouter } from "next/router";
 import Chatbot from "../../components/Chatbot/Main";
 import EpidemiologicalData from "./EpidemiologicalData";
 import PublicHealthAlerts from "./PublicHealthAlerts";
 import Announcements from "./AnnouncementsCdc";
-
-
-
-
-
+import DataAnalysis from "./DataAnalysis";
 
 export default function CDCMain() {
   const [activeTab, setActiveTab] = useState<
-    
-    | "epidemiology"
-    | "publicHealthAlerts"
-    | "announcements"
-    | "chat"
-    | "metrics"
+    "epidemiology" | "publicHealthAlerts" | "announcements" | "chat" | "metrics"
   >("epidemiology");
 
   const router = useRouter();
@@ -46,17 +27,10 @@ export default function CDCMain() {
     await router.push("/");
   };
 
-  const data = [
-    { date: "Jan", cases: 400, hospitalizations: 240 },
-    { date: "Feb", cases: 700, hospitalizations: 320 },
-    { date: "Mar", cases: 1500, hospitalizations: 800 },
-    { date: "Apr", cases: 1800, hospitalizations: 900 },
-  ];
-
   return (
-    <div className="flex h-screen">
+    <div className="relative flex h-screen w-full">
       {/* Sidebar */}
-      <div className="w-80 bg-gray-900 p-5 text-white">
+      <div className="w-80 min-w-[320px] bg-gray-900 p-5 text-white">
         <h2 className="mb-4 text-xl font-bold">CDC Healthcare Portal</h2>
 
         <div className="space-y-4">
@@ -67,18 +41,11 @@ export default function CDCMain() {
             <FiClipboard /> View Epidemiological Data
           </button>
 
-          {/* <button
-            onClick={() => setActiveTab("publicHealthAlerts")}
-            className={`flex w-full items-center gap-2 p-3 text-left ${activeTab === "publicHealthAlerts" ? "bg-gray-700" : "hover:bg-gray-800"}`}
-          >
-            <FiBell /> Public Health Alerts
-          </button> */}
-
           <button
             onClick={() => setActiveTab("announcements")}
             className={`flex w-full items-center gap-2 p-3 text-left ${activeTab === "announcements" ? "bg-gray-700" : "hover:bg-gray-800"}`}
           >
-            <FiFileText />  Announcements (CDC)
+            <FiFileText /> Announcements (CDC)
           </button>
 
           <button
@@ -98,7 +65,7 @@ export default function CDCMain() {
       </div>
 
       {/* Main Content */}
-      <div className="flex-1 p-5">
+      <div className="flex-1 overflow-auto p-5">
         <nav className="flex justify-between bg-gray-100 p-4">
           <h1 className="text-lg font-semibold">Welcome, CDC Representative</h1>
           <button
@@ -113,38 +80,12 @@ export default function CDCMain() {
         <div className="mt-6 border p-4">
           {activeTab === "epidemiology" && <EpidemiologicalData />}
           {activeTab === "publicHealthAlerts" && <PublicHealthAlerts />}
-          {activeTab === "announcements" && <Announcements/>}
+          {activeTab === "announcements" && <Announcements />}
 
+          {activeTab === "chat" && <Chatbot />}
+         
 
-
-          {activeTab === "chat" && (
-       
-              
-              <Chatbot />
-
-          )}
-
-          {activeTab === "metrics" && (
-            <div>
-              <h2 className="text-lg font-semibold">Operational Metrics</h2>
-              <p>Monitor hospital capacities and testing rates.</p>
-              <ResponsiveContainer width="100%" height={300}>
-                <LineChart data={data}>
-                  <CartesianGrid strokeDasharray="3 3" />
-                  <XAxis dataKey="date" />
-                  <YAxis />
-                  <Tooltip />
-                  <Legend />
-                  <Line type="monotone" dataKey="cases" stroke="#8884d8" />
-                  <Line
-                    type="monotone"
-                    dataKey="hospitalizations"
-                    stroke="#82ca9d"
-                  />
-                </LineChart>
-              </ResponsiveContainer>
-            </div>
-          )}
+          {activeTab === "metrics" && <DataAnalysis></DataAnalysis>}
         </div>
       </div>
     </div>

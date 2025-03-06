@@ -1,6 +1,3 @@
-
-
-
 import React, { useState, useEffect } from "react";
 
 interface Announcement {
@@ -88,10 +85,15 @@ const Announcements: React.FC = () => {
       ) : (
         <ul className="space-y-4">
           {announcements.map((announcement) => (
-            <li key={announcement.id} className="p-4 border rounded-lg bg-gray-100 shadow-sm">
+            <li
+              key={announcement.id}
+              className="p-4 border rounded-lg bg-gray-100 shadow-sm"
+            >
               <h3 className="text-lg font-semibold">{announcement.title}</h3>
               <p className="text-gray-700">{announcement.message}</p>
-              <p className="text-sm text-gray-500">{new Date(announcement.date).toLocaleDateString()}</p>
+              <p className="text-sm text-gray-500">
+                {new Date(announcement.date).toLocaleDateString()}
+              </p>
             </li>
           ))}
         </ul>

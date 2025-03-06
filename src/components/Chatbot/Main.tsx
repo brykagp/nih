@@ -1,4 +1,3 @@
-
 import { useState, useEffect, useRef } from "react";
 
 export default function Chatbot() {
@@ -11,14 +10,20 @@ export default function Chatbot() {
   type APIResponse = { reply: string };
 
   const sendPredefinedMessage = async (message: string) => {
-    setMessages((prevMessages) => [...prevMessages, { sender: "user", text: message }]);
+    setMessages((prevMessages) => [
+      ...prevMessages,
+      { sender: "user", text: message },
+    ]);
     await fetchBotResponse(message);
   };
 
   const sendMessage = async () => {
     if (!input.trim()) return;
 
-    setMessages((prevMessages) => [...prevMessages, { sender: "user", text: input }]);
+    setMessages((prevMessages) => [
+      ...prevMessages,
+      { sender: "user", text: input },
+    ]);
     await fetchBotResponse(input);
     setInput("");
   };
@@ -37,7 +42,10 @@ export default function Chatbot() {
 
       const data = (await res.json()) as APIResponse;
 
-      setMessages((prevMessages) => [...prevMessages, { sender: "bot", text: data.reply }]);
+      setMessages((prevMessages) => [
+        ...prevMessages,
+        { sender: "bot", text: data.reply },
+      ]);
     } catch (error) {
       console.error("Error fetching chat response:", error);
     }
@@ -48,31 +56,39 @@ export default function Chatbot() {
   }, [messages]);
 
   return (
-    <div className="fixed bottom-5 right-5  h-[600px] bg-gray-900 text-white shadow-lg p-5 rounded-lg flex flex-col max-w-5xl mx-auto w-full">
+    <div className="flex flex-col h-full">
       <div className="flex items-center justify-between mb-4">
-        <h2 className="text-xl font-semibold">Chat</h2>
+      
         <div className="flex space-x-2">
           <button
             onClick={() => sendPredefinedMessage("CDC Assistance")}
-            className="bg-blue-500 text-white px-3 py-1 rounded-md hover:bg-blue-600 transition"
+            className="bg-blue-500 text-white px-3 py-1 rounded-md hover:bg-blue-600 transition text-sm"
           >
             CDC
           </button>
           <button
             onClick={() => sendPredefinedMessage("Institute Support")}
-            className="bg-green-500 text-white px-3 py-1 rounded-md hover:bg-green-600 transition"
+            className="bg-green-500 text-white px-3 py-1 rounded-md hover:bg-green-600 transition text-sm"
           >
             Institute
           </button>
         </div>
       </div>
 
-      <div className="flex-1 overflow-y-auto border border-gray-700 p-4 rounded-lg bg-gray-800 space-y-3">
+      <div
+        className="flex-1 overflow-y-auto border border-gray-700 p-4 rounded-lg bg-gray-800 space-y-3"
+        style={{
+          height: "300px",
+          minHeight: "200px",
+        }}
+      >
         {messages.map((msg, idx) => (
           <div
             key={idx}
             className={`p-3 rounded-lg max-w-[75%] ${
-              msg.sender === "user" ? "bg-blue-500 text-white ml-auto text-right" : "bg-gray-600 text-white"
+              msg.sender === "user"
+                ? "bg-blue-500 text-white ml-auto text-right"
+                : "bg-gray-600 text-white"
             }`}
           >
             {msg.text}
@@ -83,14 +99,14 @@ export default function Chatbot() {
 
       <div className="flex mt-4 space-x-2">
         <input
-          className="flex-1 p-3 border border-gray-700 rounded-lg bg-gray-800 text-white outline-none focus:ring-2 focus:ring-blue-500"
+          className="flex-1 p-3 border border-gray-700 rounded-lg bg-gray-800 text-white outline-none focus:ring-2 focus:ring-blue-500 text-sm"
           placeholder="Type a message..."
           value={input}
           onChange={(e) => setInput(e.target.value)}
         />
         <button
           onClick={sendMessage}
-          className="bg-blue-500 text-white px-5 py-3 rounded-lg hover:bg-blue-600 transition"
+          className="bg-blue-500 text-white px-5 py-3 rounded-lg hover:bg-blue-600 transition text-sm"
         >
           Send
         </button>
