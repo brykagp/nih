@@ -48,7 +48,7 @@ const SignUp = () => {
             <option value="healthcare">Health Department</option>
             <option value="cdc">CDC</option>
             <option value="labs">Labs</option>
-            <option value="hospital">Hospital</option>
+            {/* <option value="hospital">Hospital</option> */}
             <option value="patient">Patient</option>
            
           </select>

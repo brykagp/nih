@@ -1,52 +1,48 @@
 import Image from "next/image";
 import { useState } from "react";
-import { FiTrash, FiUploadCloud } from "react-icons/fi";
+import { FiTrash, FiUploadCloud, FiFileText } from "react-icons/fi";
 
-export default function PhotoUpload() {
-  const [uploadedImages, setUploadedImages] = useState<string[]>([]);
+export default function FileUpload() {
+  const [uploadedFiles, setUploadedFiles] = useState<File[]>([]);
 
   const handleFileUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
     if (event.target.files) {
       const filesArray = Array.from(event.target.files);
-      const imageUrls = filesArray.map((file) => URL.createObjectURL(file));
-      setUploadedImages((prevImages) => [...prevImages, ...imageUrls]);
+      setUploadedFiles((prevFiles) => [...prevFiles, ...filesArray]);
     }
   };
 
-  const handleDeleteImage = (imageUrl: string) => {
-    setUploadedImages((prevImages) => prevImages.filter((img) => img !== imageUrl));
+  const handleDeleteFile = (file: File) => {
+    setUploadedFiles((prevFiles) => prevFiles.filter((f) => f !== file));
   };
 
   return (
-    <div>
-      <h2 className="text-lg font-semibold mb-4">Upload Test Kit Photo</h2>
-      <input
-        type="file"
-        className="mt-2 border p-2"
-        onChange={handleFileUpload}
-        accept="image/*"
-        multiple
-      />
-      <button className="mt-2 rounded bg-blue-500 px-4 py-2 text-white flex items-center gap-2">
-        <FiUploadCloud /> Upload
-      </button>
+    <div className="max-w-lg mx-auto p-6 bg-white rounded-lg shadow-lg">
+      <h2 className="text-lg font-semibold mb-4">Upload Files</h2>
+      <label className="flex flex-col items-center justify-center w-full h-32 border-2 border-dashed border-gray-300 rounded-lg cursor-pointer bg-gray-100 hover:bg-gray-200">
+        <FiUploadCloud className="text-3xl text-gray-500" />
+        <span className="mt-2 text-gray-600">Click to Upload</span>
+        <input
+          type="file"
+          className="hidden"
+          onChange={handleFileUpload}
+          accept="image/*,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+          multiple
+        />
+      </label>
 
-      {/* Uploaded Images Gallery */}
-      {uploadedImages.length > 0 && (
-        <div className="mt-4 grid grid-cols-3 gap-4">
-          {uploadedImages.map((imageUrl, index) => (
-            <div key={index} className="relative">
-              <Image
-              width={300}
-              height={300}
-                src={imageUrl}
-                alt={`Uploaded ${index}`}
-                className="w-full h-32 object-contain rounded-md border"
-              />
-              <button
-                onClick={() => handleDeleteImage(imageUrl)}
-                className="absolute top-2 right-2 bg-red-500 text-white p-1 rounded-full"
-              >
+      {/* Uploaded Files */}
+      {uploadedFiles.length > 0 && (
+        <div className="mt-4 space-y-3">
+          {uploadedFiles.map((file, index) => (
+            <div key={index} className="flex items-center gap-3 p-2 border rounded-lg bg-gray-50">
+              {file.type.startsWith("image") ? (
+                <Image width={50} height={50} src={URL.createObjectURL(file)} alt={file.name} className="w-12 h-12 object-cover rounded-md" />
+              ) : (
+                <FiFileText className="text-2xl text-blue-500" />
+              )}
+              <span className="text-sm text-gray-700 truncate w-48">{file.name}</span>
+              <button onClick={() => handleDeleteFile(file)} className="text-red-500 hover:text-red-700">
                 <FiTrash />
               </button>
             </div>

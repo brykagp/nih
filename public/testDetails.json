@@ -1,0 +1,24 @@
+{
+    "viewTestResults": "Link to Full Report",
+    "sampleType": "Blood",
+    "testDate": "2024-10-27",
+    "testLocation": "Main Hospital Lab",
+    "results": [
+      {
+        "parameter": "Glucose",
+        "result": "90 mg/dL",
+        "normalRange": "70-100 mg/dL"
+      },
+      {
+        "parameter": "Cholesterol",
+        "result": "200 mg/dL",
+        "normalRange": "Less than 200 mg/dL"
+      },
+      {
+        "parameter": "Hemoglobin",
+        "result": "14 g/dL",
+        "normalRange": "13.5-17.5 g/dL"
+      }
+    ]
+  }
+  

@@ -8,14 +8,14 @@ import {
   FiFileText,
   FiUploadCloud,
   FiBell,
-  FiPhone,
+  FiMessageSquare,
 } from "react-icons/fi";
 import Chatbot from "../../components/Chatbot/Main";
 import PhotoUpload from "./PhotoUpload";
 import DiagnosedConditions from "./DiagnosedConditions";
 import Guidelines from "./Guidelines";
 import Profile from "./Profile";
-import TestResults from "./TestResults"; // Import the TestResults component
+import TestResults from "./TestResults"; 
 
 export default function PatientDashboard() {
   const [activeTab, setActiveTab] = useState<
@@ -86,7 +86,8 @@ export default function PatientDashboard() {
               activeTab === "contact" ? "bg-blue-700" : "hover:bg-blue-800"
             }`}
           >
-            <FiPhone /> Call / Chat for Help
+           <FiMessageSquare />
+           Chat for Help
           </button>
 
           <button
@@ -114,7 +115,7 @@ export default function PatientDashboard() {
 
         {/* Dynamic Content Based on Active Tab */}
         <div className="mt-6 border p-4">
-          {activeTab === "testResults" && <TestResults />} {/* Use TestResults component here */}
+          {activeTab === "testResults" && <TestResults />} 
 
           {activeTab === "photoUpload" && <PhotoUpload />}
 
