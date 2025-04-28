@@ -1,9 +1,16 @@
-import SignIn from "./auth/signin";
+// import SignIn from "./auth/signin";
+
+// export default function Home() {
+//   return <SignIn />;
+// }
+
+
+
+import SignUp from "./auth/signup";
 
 export default function Home() {
-  return <SignIn />;
+  return <SignUp />;
 }
-
 
 
 
